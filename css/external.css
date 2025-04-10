@@ -123,8 +123,8 @@ color: blue;
     margin-left: 25px;
 }
 .ingredients li{
-    padding-right: 40px;
-    background-color: bisque;
+    padding-right: 10px;
+    padding-left: 15px;
 }
 
 
@@ -153,10 +153,10 @@ strong{
     font-size: .80rem;
     font-weight: 450;
     color: var(--Stone-3);
-    gap: 2rem;
+    gap: 5rem;
     margin-left: 25px;
     padding-right: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .line{
@@ -190,4 +190,16 @@ tr{
 
 tr:not(:last-child) {
     border-bottom: 1px solid var(--Brown);
+}
+
+td{
+width: 100%;
+font-family: var(--OUTFIT);
+font-weight: 500;
+font-size: .8rem;
+}
+
+td:nth-child(2n) {
+font-weight:700;
+color:var(--Brown);
 }
