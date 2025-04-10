@@ -185,9 +185,9 @@ table{
 tr{
     display: flex;
     font-size: .75rem;
+    padding: 10px;
 }
 
 tr:not(:last-child) {
     border-bottom: 1px solid var(--Brown);
-    padding-bottom: ;
 }
