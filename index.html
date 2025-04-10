@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,
+    initial-scale-1.0">
+    <title> HTML CLASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <!-- an internal css styling is done in html file, under the head section. It is also done with inline css-->
+    <!-- '*' is known as the global reset, it is used to remove the default margin and padding on a webpage-->
+    <!--'id' and 'class' are both identifiers but the difference between id and class is that, 'ids' is uniquely used to style a particular part, it is not used across board, 
+    while 'class' can be used to give different things on a webpage the same style, it is reused over and over again-->
+    <!--'nav' is the short form for 'navigation' and 'span' is used to write a text-->
+    <!--when using fonts from google, it is advisable to copy the link and paste under the 'head' section instead of downloading it. 
+    This is called cdn; content delivery network...embed the link in code to make use of it, you do not have to come back to redownload is an update is made, it updates automatically-->
+    
+
+    
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        body {
+            background-color: lightblue;
+            font-family: "Roboto", sa;
+        }
+
+        h1 {
+            color:pink;
+        }
+
+        p {
+            color: coral !important;
+            font-size: 20px;
+        }
+
+        .hello {
+            color: red;
+            font-size: 20px;
+        }
+
+        #small {
+            color: green;
+            font-size: 20px;
+        }
+
+
+    </style>
+
+</head>
+
+<!--inline css is done inside each command/tag. It overrides the 2 other types of css(internal and external), if they are all used in a webpage-->
+<!--if you don't want the inline to override the other styling, you use a variable known as '!important' on the tag in the internal or external css. -->
+
+
+<body>
+<h1 class="hello">Hello World</h1>
+<h2>Welcome to class</h2>
+
+<p style="color: white; font-size: 20px;">Success, a multifaceted concept, is ultimately a personal journey defined by the satisfaction derived from achieving meaningful goals and finding fulfillment in one's endeavors, 
+    often through hard work and perseverance. Success is not a one-size-fits-all concept; it's a deeply personal journey where individuals define their own benchmarks of achievement. </p>
+    <h1 id="small">Whether it's a small personal victory or a grand professional accomplishment, the true measure of success lies in the feeling of accomplishment and the satisfaction derived from reaching one's goals.</h1>
+    This journey often requires dedication, resilience, and the willingness to embrace challenges as opportunities for growth.
+    <p>It's about chasing aspirations with unwavering determination and finding fulfillment in the journey itself, not just the destination.
+    Ultimately, success is a reflection of the effort invested and the lessons learned along the way. </p>
+
+<!--adding image is using '<img src "image link" and then (alt="image tag">)> -->
+<!--adding link is using '<a href="link">'-->
+<!--if you want to make a picture to be a link to a website, the picture will be in the link prompt i.e (<a href="link"> <img src="image link" alt="image tag">) -->
+
+<a href="https://www.google.com"></a>
+<img src="img/success.jpeg" alt="success">
+
+<ul>
+    <li>black</li>
+    <li>red</li>
+    <li>yellow</li>
+</ul>
+
+<ol>
+    <li>rice</li>
+    <li>beans</li>
+    <li>plantain</li>
+</ol>
+
+<!--you can use 'get' or 'post'for the 'form method', 'post is more security conscious'-->
+
+<form method="post">
+<!--it is better to put the 'label' before the 'input' here, for good user experience i.e it makes the website look better-->
+<label for="name">name</label> </br>
+<input type="text" name="name" required> </br> <!--you can control the length of name inputted by using the 'maxlength'value -->
+<label for="number">Number</label> </br>
+<input type="number" name="number" > </br>
+<label for="email"> Email</label> </br>
+<input type="email" name="email"> </br>
+
+<P> What is your gender?</P>
+<!--there is no right way to do it, it is better to put the 'input' before the 'label' here because selecting an option should come before the name, for good user experience i.e it makes the website look better-->
+<input type="radio" id="male" name="gender" value="male"/>
+<label for="male"> male</label> <br/>
+<input type="radio" id="female" name="gender" value="female"/>
+<label for="female"> female</label> <br/>
+<input type="radio" id="undisclosed" name="gender" value="undisclosed"/>
+<label for="undisclosed"> male</label> <br/>
+
+
+<textarea name="description" rows="10" cols="30"></textarea>
+
+
+<input type="submit" value="submit">
+
+
+<button type="button"
+onclick="alert('Welcome to class')"
+>Submit</button>
+
+
+</form>
+<!--
+<form method="post">
+</form>
+<button type="button"
+onclick="alert("Welcome to class")"
+>Submit</button> -->
+
+
+<div>
+    <label for="username"> Username </label><br>
+    <input type="text" name="username" placeholder="username"/> <br>
+
+    <!--to have the 'username' written inside box allocated for it as seen on websites, you have to use a value known as 'placeholder'-->
+
+    <label for="password"> Password </label><br>
+    <input type="text" name="password" placeholder="password"/>
+
+
+</div>
+
+
+<table>
+<!--'td' is table data, 'tr' is table row, 'th' is table head-->
+<tr>
+    <th>Name</th>
+    <th>Course</th>
+    <th>Time</th>
+    <th>Credit scores</th>
+</tr>
+
+
+<tr>
+    <td>Sunday</td>
+    <td>UI/UX</td>
+    <td>8:00AM-9:00AM</td>
+    <td>3 points</td>
+</tr>
+<tr>
+    <td>Bola</td>
+    <td>Frontend</td>
+    <td>9:00AM-10:00AM</td>
+    <td>5 points</td>
+</tr>
+<tr>
+    <td>Tolu</td>
+    <td>Digital Marketing</td>
+    <td>10:00AM-11:00AM</td>
+    <td>3 points</td>
+</tr>
+<tr>
+    <td>Rola</td>
+    <td>Product Management</td>
+    <td>11:00AM-12:00AM</td>
+    <td>6 points</td>
+</tr>
+<tr>
+    <td>Vivian</td>
+    <td>UI/UX</td>
+    <td>7:00AM-8:00AM</td>
+    <td>9 points</td>
+</tr>
+
+</table>
+
+
+<!--the anatomy of css is divided into 3; selector(name;h1..paragraph, id, class; works when using external or internal css), declaration (property and value),-->
+<!--3 ways to style css: inline, internal, external-->
+<!---->
+
+</body>
+</html>
