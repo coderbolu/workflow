@@ -7,8 +7,95 @@
 .flexbox{
     margin-left: 0 20rem;
     display: flex;
-    justify-content:space-between;
-    /* align-items: center; */
-   
+    /* flex-direction: column; */
+    gap: 2rem;
+    /*row-reverse changes content from back to front, column- reverse does bottom to top, 
+    flex-wrap breaks the line into two each time the element reaches it's limit on a line, so the elements are not forced into one line.
+    'Justify-content' works on parent div, 'align item' is used on each element i.e child element.
+    'flex-grow increases the size of a particular element above the other ones, it expands the width..*/
+    flex-wrap: wrap;
 }
-    
+
+.class1{
+    background-color: pink;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class2{
+    background-color: blue;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class3{
+    background-color: green;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class4{
+    background-color: red;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class5{
+    background-color: yellow;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class6{
+    background-color: orange;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class7{
+    background-color: purple;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class8{
+    background-color: brown;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class9{
+    background-color: black;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class10{
+    background-color: gray;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class11{
+    background-color: magenta;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
+
+.class12{
+    background-color: cyan;
+    width:5rem;
+    height:5rem;
+    text-align: center;
+}
