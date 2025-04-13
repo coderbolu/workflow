@@ -11,20 +11,22 @@
 }
 
 body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
     font-family: var(--OUTFIT);
     padding: 40px;
-    position: relative;
+    /* position:relative; */
     width: 100px;
     min-width: 100vh;
+    min-height: 100vh;
     background-image:url("../img/descclass.jpeg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
     /* place the contents at the center */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 label{
@@ -39,6 +41,8 @@ label{
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 16px;
     padding: 20px;
+    justify-self: center;
+    align-self: center;
     
 }
 
