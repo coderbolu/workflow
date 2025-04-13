@@ -110,5 +110,7 @@ button {
     color: #fff;
     border-radius: 5px;
     align-items: center;
-;
 }
+
+.add-to-cart{
+    padding right: 2rem;
