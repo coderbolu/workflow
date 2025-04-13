@@ -97,7 +97,7 @@ img{
 }
 
 button {
-    height: 50px;
+    height: 2rem;
     background-color: var(--Green500);
     border: none;
     font-size: 15px;
