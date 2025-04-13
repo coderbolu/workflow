@@ -34,7 +34,7 @@ body {
 
 img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-top-left-radius: .50rem;
     border-bottom-left-radius: .50rem;
 
@@ -56,12 +56,13 @@ img{
 .product-details{
     display: flex;
     flex-direction: column;
+    justify-content:space-evenly;
     gap: 1rem;
     border-top-right-radius: .50rem;
     border-bottom-right-radius: .50rem;
     background-color: var(--White);
     width: 300%;
-    height:100%;
+    height:80%;
     padding: 1.5rem;
 }
 
@@ -75,7 +76,7 @@ img{
     font-family: var(--MONTSERRAT);
     font-size: 0.80rem;
     color: var(--Grey);
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2rem;
     padding: 0 0 0.75rem;
 
@@ -101,7 +102,7 @@ button {
     display: flex;
     justify-content: center;
     height: 3rem;
-    width: 13rem ;
+    width: 13rem;
     background-color: var(--Green500);
     border: none;
     font-size: 0.75rem;
@@ -113,4 +114,5 @@ button {
 }
 
 .add-to-cart{
-    padding right: 2rem;
+    padding left: 2rem;
+}
