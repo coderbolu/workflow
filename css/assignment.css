@@ -91,9 +91,10 @@ img{
 .discount-price{
     font-family: var(--MONTSERRAT);
     font-size: .75rem;
-    color: var(--Black);
-    font-weight: 400;
+    color: var(--Grey);
+    font-weight: 600;
     text-decoration: line-through ;
+    padding: 1rem;
 }
 
 button {
