@@ -96,3 +96,11 @@ img{
     text-decoration: line-through ;
 }
 
+button {
+    height: 50px;
+    background-color: var(--Green500);
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+}
