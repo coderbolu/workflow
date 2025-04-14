@@ -26,6 +26,7 @@ body {
     justify-content: center;
     position: absolute;
     min-height: 100vh; 
+    min-width: 100vh;
     width: 100%;
     background-color: var(--Cream);
     padding:10rem;
