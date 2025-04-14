@@ -108,4 +108,8 @@ button {
     color: #fff;
     border-radius: 0.50rem;
     align-items: center;
-}w
+}
+
+box-icon{
+    margin-right: 0.75rem;
+}
