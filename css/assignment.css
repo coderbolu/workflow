@@ -79,7 +79,6 @@ img{
 
 .price{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -88,7 +87,6 @@ img{
     font-size: 1.80rem;
     color: var(--Green500);
     font-weight:800;
-    margin-right: 3rem;
 }
 
 
@@ -98,7 +96,6 @@ img{
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through;
-    /* flex-direction:start; */
     margin-left: 1rem;
 }
 
