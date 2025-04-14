@@ -56,7 +56,7 @@ img{
 .product-details{
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
     gap: 1rem;
     border-top-right-radius: .50rem;
     border-bottom-right-radius: .50rem;
@@ -78,7 +78,6 @@ img{
     color: var(--Grey);
     font-weight: 600;
     line-height: 1.2rem;
-    line-height: 1.5rem;
 }
 
 .actual-price{
@@ -101,7 +100,7 @@ button {
     display: flex;
     justify-content: center;
     height: 3.5rem;
-    width: 15rem;
+    width: 13rem;
     background-color: var(--Green500);
     border: none;
     font-size: 0.75rem;
@@ -113,5 +112,5 @@ button {
 }
 
 .add-to-cart{
-    padding left: 2rem;
+    /* padding left: 2rem; */
 }
