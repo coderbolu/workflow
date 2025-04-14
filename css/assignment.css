@@ -56,7 +56,7 @@ img{
 .product-details{
     display: flex;
     flex-direction: column;
-    /* justify-content:space-evenly; */
+    justify-content:space-evenly;
     gap: 1rem;
     border-top-right-radius: .50rem;
     border-bottom-right-radius: .50rem;
@@ -82,7 +82,7 @@ img{
 
 .actual-price{
     font-family: var(--FRAUNCES);
-    font-size: 2rem;
+    font-size: 1.80rem;
     color: var(--Green500);
     font-weight:800;
 }
@@ -93,13 +93,15 @@ img{
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through ;
-    padding: 1rem;
+    padding-bottom: 1rem;
+    /* flex-direction: column; */
+    /* justify-content:space-around ; */
 }
 
 button {
     display: flex;
     justify-content: center;
-    height: 3.5rem;
+    height: 3rem;
     width: 13rem;
     background-color: var(--Green500);
     border: none;
@@ -109,8 +111,4 @@ button {
     color: #fff;
     border-radius: 0.50rem;
     align-items: center;
-}
-
-.add-to-cart{
-    /* padding left: 2rem; */
 }
