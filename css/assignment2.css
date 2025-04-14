@@ -42,6 +42,7 @@ img{
     display: flex;
     flex-direction: column;
     width: 300px;
+
 }
 
 .category{
@@ -66,17 +67,23 @@ img{
 
 .title{
     font-family: var(--FRAUNCES);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
 
 }
 
 .description{
     font-family: var(--MONTSERRAT);
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: var(--Grey);
     font-weight: 600;
     line-height: 1.5rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .actual-price{
@@ -92,9 +99,7 @@ img{
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through;
-    /* margin-right: 20rem; */
-    /* padding-bottom: 1rem; */
-    /* flex-direction: flex-start; */
+    flex-direction: flex-end;
 }
 
 button {
