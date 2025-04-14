@@ -41,7 +41,6 @@ img{
 .product-card{
     display: flex;
     width: 300px;
-    /* padding: 1rem; */
 }
 
 .category{
@@ -93,8 +92,7 @@ img{
     font-weight: 500;
     text-decoration: line-through ;
     /* padding-bottom: 1rem; */
-    /* flex-direction: column; */
-    /* justify-content:space-around ; */
+    flex-direction: flex-start;
 }
 
 button {
@@ -112,4 +110,6 @@ button {
     align-items: center;
 }
 
-.
+.add-to-cart:{
+    justify-content: flex-start;
+}
