@@ -6,6 +6,7 @@
     initial-scale-1.0">
     <title> DESC CLASS</title>
     <link rel="stylesheet" href="./css/descclass.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,10 +21,17 @@
             <input type="text" name="email" placeholder="Email">
             <label for="name">Phone Number</label>
             <input type="text" name="phonenumber" placeholder="Phone Number">
-            <button>Submit</button>
+            <button formtarget="self" onclick="test()">Submit</button>
         </form>
     </div>
-
+    <script>
+        const button = document.getElementById('btn');
+        
+        button.onclick = () => {
+         window.alert('Form submitted')
+        }
+        
+    </script>
     
 </body>
 </html>
