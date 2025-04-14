@@ -73,13 +73,13 @@ img{
     font-family: var(--MONTSERRAT);
     font-size: 0.85rem;
     color: var(--Grey);
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5rem;
 }
 
 .price{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -88,7 +88,7 @@ img{
     font-size: 1.80rem;
     color: var(--Green500);
     font-weight:800;
-    padding-right: 3rem;
+    margin-right: 3rem;
 }
 
 .discount-price{
@@ -97,7 +97,8 @@ img{
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through;
-    flex-direction: flex-end;
+    flex-direction: flex-start;
+    /* margin-inline-end: 5rem; */
 }
 
 button {
