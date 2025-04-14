@@ -85,7 +85,7 @@ img{
 
 .price{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     align-items: center;
 }
 
@@ -94,7 +94,7 @@ img{
     font-size: 1.90rem;
     color: var(--Green500);
     font-weight:800;
-    margin-right: 3rem;
+    margin-right: rem;
 
 }
 
@@ -104,8 +104,8 @@ img{
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through;
-    flex-direction:center;
-    margin-left: -5rem;
+    /* flex-direction:start; */
+    margin-left: 1rem;
 }
 
 button {

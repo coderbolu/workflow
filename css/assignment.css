@@ -91,14 +91,15 @@ img{
     margin-right: 3rem;
 }
 
+
 .discount-price{
     font-family: var(--MONTSERRAT);
     font-size: .80rem;
     color: var(--Grey);
     font-weight: 500;
     text-decoration: line-through;
-    flex-direction: flex-start;
-    /* margin-inline-end: 5rem; */
+    /* flex-direction:start; */
+    margin-left: 1rem;
 }
 
 button {
