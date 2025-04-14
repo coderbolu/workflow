@@ -94,7 +94,7 @@ img{
     font-family: var(--MONTSERRAT);
     font-size: .80rem;
     color: var(--Grey);
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: line-through;
     margin-left: 1rem;
 }
