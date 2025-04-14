@@ -28,6 +28,7 @@ body {
     width: 100%;
     background-color: var(--Black);
     padding:10rem;
+    
 }
 
 img{
@@ -65,6 +66,7 @@ img{
     max-width: 600%;
     /* height:70%; */
     padding: 1.5rem;
+    margin-top: -1rem;
 }
 
 .title{
@@ -103,6 +105,7 @@ img{
     font-weight: 500;
     text-decoration: line-through;
     flex-direction:center;
+    margin-left: -5rem;
 }
 
 button {
