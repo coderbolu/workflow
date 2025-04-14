@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --MONTSERRAT: "Montserrat";
+    --FRAUNCES: "Fraunces";
+    /* PRIMARY */
+    --Green500:hsl(158, 36%, 37%);
+    --Green700: hsl(158, 42%, 18%);
+
+    /* NEUTRAL */
+    --Black:hsl(212, 21%, 14%);
+    --Grey:hsl(228, 12%, 48%);
+    --Cream:hsl(30, 38%, 92%);
+    --White:hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    min-height: 100vh; 
+    width: 100%;
+    background-color: var(--Cream);
+    padding:10rem;
+}
+
+img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: .50rem;
+    border-bottom-left-radius: .50rem;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.category{
+    font-family: var(--MONTSERRAT);
+    font-size:.75rem;
+    color: var(--Grey);
+    letter-spacing: .50rem;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 1rem;
+    border-top-right-radius: .50rem;
+    border-bottom-right-radius: .50rem;
+    background-color: var(--White);
+    width: 100%;
+    height:70%;
+    padding: 1.5rem;
+}
+
+.title{
+    font-family: var(--FRAUNCES);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.description{
+    font-family: var(--MONTSERRAT);
+    font-size: 0.75rem;
+    color: var(--Grey);
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.actual-price{
+    font-family: var(--FRAUNCES);
+    font-size: 1.80rem;
+    color: var(--Green500);
+    font-weight:800;
+}
+
+.discount-price{
+    font-family: var(--MONTSERRAT);
+    font-size: .80rem;
+    color: var(--Grey);
+    font-weight: 500;
+    text-decoration: line-through;
+    /* margin-right: 20rem; */
+    /* padding-bottom: 1rem; */
+    /* flex-direction: flex-start; */
+}
+
+button {
+    display: flex;
+    justify-content:center;
+    height: 3rem;
+    width: 13rem;
+    background-color: var(--Green500);
+    border: none;
+    font-size: 0.75rem;
+    font-family: var(--MONTSERRAT);
+    font-weight: 500;
+    color: #fff;
+    border-radius: 0.50rem;
+    align-items: center;
+}
+
+box-icon{
+    margin-right: 0.75rem;
+}
