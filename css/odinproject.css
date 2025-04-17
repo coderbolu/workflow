@@ -1,9 +1,25 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'););
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a
+
+:root {
+    --ROBOTO: "Roboto";
+    --light-blue:"#3882f6";
+    --dark-black:"#1f2937";
+    --ash-grey:"#E5E7EB";
+    
+
+
+
+}
+
+body{
+    background-color: #1f2937;
+}
 
 .menu-container {
 padding: 20px;
