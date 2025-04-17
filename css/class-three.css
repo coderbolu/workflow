@@ -16,3 +16,7 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
+body{
+    display: grid;
+    
+}
