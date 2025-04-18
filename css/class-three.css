@@ -52,3 +52,9 @@ body{
     background-repeat: no-repeat;
     background-position: 80% 0%;
 }
+
+.testimonials-grid .item:nth-child(1) .person {
+    color: var(--white);
+    position: relative;
+
+    
