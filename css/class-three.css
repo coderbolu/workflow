@@ -105,7 +105,7 @@ background-color: var(--dark-grayish-blue);
     display: flex;
     align-items: center;
     gap: 1rem; /* Removed extra semicolon */
-    color:var(--dark-blackish-grey);
+    color: var(--dark-blackish-blue) !important;
     position: relative;
     z-index: 5;
     margin-bottom: 1rem;
