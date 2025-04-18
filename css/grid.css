@@ -7,9 +7,10 @@
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);/* repeat 4, 1fr means for the divs to have the same size */
+    grid-template-columns: repeat(3, 1fr);/* repeat 4, 1fr means for the divs to have the same size */
     background-color: violet;
     padding: 10px;
+    gap: 3px;
 }
 
 .grid-container > div {
@@ -21,8 +22,8 @@
 }
 
 .item1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .item2 {
