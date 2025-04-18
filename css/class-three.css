@@ -66,12 +66,16 @@ body{
     margin-bottom: 1rem;
 }
 
-.testimonials-grid .item:nth-child(1) .person img {
+.testimonials-grid .item:nth-child(1) .person img,
+.testimonials-grid .item:nth-child(2) .person img,
+.testimonials-grid .item:nth-child(3) .person img,
+.testimonials-grid .item:nth-child(4) .person img,
+.testimonials-grid .item:nth-child(5) .person img {
     border-radius: 50%;
 }
 
-.testimonials-grid .item:nth-child(1) .bottom-quote
-.testimonials-grid .item:nth-child(2) .bottom-quote
+.testimonials-grid .item:nth-child(1) .bottom-quote,
+.testimonials-grid .item:nth-child(2) .bottom-quote,
 .testimonials-grid .item:nth-child(3) .bottom-quote {
     color: var(--light-grey);
     margin-top: 1rem;
@@ -96,20 +100,14 @@ background-color: var(--dark-grayish-blue);
 
 
 .testimonials-grid .item:nth-child(3) .person,
-.testimonials-grid .item:nth-child(3) .top-quote, 
+.testimonials-grid .item:nth-child(3) .top-quote {
 /* .testimonials-grid .item:nth-child(4) .person, */
-/* .testimonials-grid .item:nth-child(4) .top-quote { */ {
+/* .testimonials-grid .item:nth-child(4) .top-quote { */
     display: flex;
     align-items: center;
-    gap: 1rem;
-    color: var(--dark-blackish-blue);
+    gap: 1rem; /* Removed extra semicolon */
+    color:var(--dark-blackish-grey);
     position: relative;
     z-index: 5;
     margin-bottom: 1rem;
-}
-
-
-/* .testimonials-grid .item:nth-child(4) .bottom-quote { */
-    color: var(--light-grey);
-    margin-top: 1rem;
 }
