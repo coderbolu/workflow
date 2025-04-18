@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-/* repeat 4, 1fr means for the divs to have the same size */
 :root {
     --violet: hsl(263, 55%, 52%);
     --dark-grayish-blue: hsl(217, 19%, 35%);
@@ -16,9 +15,9 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
-body{
+.grid-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);/* repeat 4, 1fr means for the divs to have the same size */
     background-color: violet;
     padding: 10px;
 }
