@@ -53,15 +53,12 @@ body{
     background-position: 80% 0%;
 }
 
-.testimonials-grid .item:nth-child(1) .person {
+.testimonials-grid .item:nth-child(1) .person,
+.testimonials-grid .item:nth-child(1) .top-quote {
     color: var(--white);
     position: relative;
     z-index: 5;
 }
 
-.testimonials-grid .item:nth-child(1) .top-quote {
-font-size: 1rem;
-color: var(--white);
-}
 
     
