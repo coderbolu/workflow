@@ -7,6 +7,7 @@
 }
 
 :root {
+    --BARLOW: "Barlow Semi Condensed", sans-serif;
     --violet: hsl(263, 55%, 52%);
     --dark-grayish-blue: hsl(217, 19%, 35%);
     --dark-blackish-blue: hsl(219, 29%, 14%);
@@ -15,4 +16,15 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background-color: var(--light-grayish-blue);
+    font-family:var(--BARLOW);
+    display: grid;
+    justify-content: center;
+}
 
