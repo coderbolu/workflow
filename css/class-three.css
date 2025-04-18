@@ -38,3 +38,14 @@ body{
     grid-auto-columns: 1fr;
     gap: 1.5rem;
 }
+
+.testimonials-grid > item {
+    padding: 2rem 2.65rem;
+    border-radius: 0.5rem;
+}
+
+.testimonials-grid .item:nth-child(1){
+    grid-area: item1;
+    background-color: var(--violet);
+    position: relative;
+}
