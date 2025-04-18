@@ -60,5 +60,14 @@ body{
     z-index: 5;
 }
 
+.testimonials-grid .item:nth-child(1) .bottom-quote {
+    color: var(--light-grey);
+    margin-top: 1 rem;
+}
 
-    
+.testimonials-grid .item:nth-child(1) .bottom-quote-icon {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
