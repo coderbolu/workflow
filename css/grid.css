@@ -19,3 +19,13 @@
     text-align: center;
     font-size: 2rem;
 }
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
