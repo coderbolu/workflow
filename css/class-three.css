@@ -56,7 +56,10 @@ body{
 .testimonials-grid .item:nth-child(1) .person,
 .testimonials-grid .item:nth-child(1) .top-quote, 
 .testimonials-grid .item:nth-child(2) .person,
-.testimonials-grid .item:nth-child(2) .top-quote {
+.testimonials-grid .item:nth-child(2) .top-quote,
+.testimonials-grid .item:nth-child(5) .person,
+.testimonials-grid .item:nth-child(5) .top-quote
+{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -106,7 +109,7 @@ background-color: var(--dark-grayish-blue);
     align-items: center;
     gap: 1rem; /* Removed extra semicolon */
     color: var(--dark-blackish-blue) !important;
-    position: relative;
+    /* position: relative; */
     z-index: 5;
     margin-bottom: 1rem;
 }
@@ -115,4 +118,14 @@ background-color: var(--dark-grayish-blue);
 .testimonials-grid .item:nth-child(4) .bottom-quote{
     color: var(--dark-grayish-blue);
     margin-top: 1rem;
+}
+
+.testimonials-grid .item:nth-child(4){
+    grid-area: item4;
+    background-color: var(--white);
+}
+
+.testimonials-grid .item:nth-child(5){
+    grid-area: item5;
+    background-color: var(--dark-blackish-blue);
 }
