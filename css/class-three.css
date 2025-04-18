@@ -66,7 +66,7 @@ body{
     color: var(--white);
     position: relative;
     z-index: 5;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .testimonials-grid .item:nth-child(1) .person img,
@@ -81,7 +81,7 @@ body{
 .testimonials-grid .item:nth-child(2) .bottom-quote,
 .testimonials-grid .item:nth-child(5) .bottom-quote{
     color: var(--light-grey);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .testimonials-grid .item:nth-child(1) .bottom-quote-icon {
@@ -112,13 +112,13 @@ background-color: var(--dark-grayish-blue);
     color: var(--dark-blackish-blue) !important;
     /* position: relative; */
     z-index: 5;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .testimonials-grid .item:nth-child(3) .bottom-quote,
 .testimonials-grid .item:nth-child(4) .bottom-quote {
     color: var(--dark-grayish-blue);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .testimonials-grid .item:nth-child(4){
