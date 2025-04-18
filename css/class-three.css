@@ -71,3 +71,9 @@ body{
     top: 0;
     right: 100%;
 }
+
+.testimonials-grid .item:nth-child(2){
+grid-area: item2;
+background-color: var(--dark-grayish-blue);
+}
+    
