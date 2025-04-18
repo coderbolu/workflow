@@ -15,10 +15,4 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);/* repeat 4, 1fr means for the divs to have the same size */
-    background-color: violet;
-    padding: 10px;
-}
 
