@@ -78,7 +78,8 @@ body{
 }
 
 .testimonials-grid .item:nth-child(1) .bottom-quote,
-.testimonials-grid .item:nth-child(2) .bottom-quote {
+.testimonials-grid .item:nth-child(2) .bottom-quote,
+.testimonials-grid .item:nth-child(5) .bottom-quote{
     color: var(--light-grey);
     margin-top: 1rem;
 }
@@ -115,7 +116,7 @@ background-color: var(--dark-grayish-blue);
 }
 
 .testimonials-grid .item:nth-child(3) .bottom-quote,
-.testimonials-grid .item:nth-child(4) .bottom-quote{
+.testimonials-grid .item:nth-child(4) .bottom-quote {
     color: var(--dark-grayish-blue);
     margin-top: 1rem;
 }
