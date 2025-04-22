@@ -25,6 +25,7 @@ body{
     color: white;
     text-align: center;
     margin-left: 20px;
+    grid-auto-rows: ;
 }
 
 
