@@ -8,10 +8,13 @@ Relative Unit are scaled based on the size of an element or the setting you have
 Don't mix units i.e do not use px, rem. em in one code.
 
 Core principles of responsive design:
-1. Flexible,fluid layout (flexbox ,or grid layout).
+1. Flexible,fluid layout (flex box ,or grid layout).
 2. Flexible images; images should scale within the grid and not overflow.
-3. Media query allows one to write specific styles for particular screen. Conditions to target when writing media query include; width, height, orientation (row/column)
-
-
+3. Media query allows one to write specific styles for particular screen. Conditions to target when writing media query include; width, height, orientation (row/column), font-sizes. Users should be able to access your website at any point in time.
+Common screen sizes we have: small, large, tablets, small laptops and desktops. 
+Mobile phone-320px-480px
+Tablet-481px-768px
+Laptops-
+Desktops-
 
 Approaches to web design 
