@@ -9,7 +9,8 @@ Don't mix units i.e do not use px, rem. em in one code.
 
 Core principles of responsive design:
 1. Flexible,fluid layout (flexbox ,or grid layout).
-2. Flexible images and media query; images should scale within the grid and not overflow.
+2. Flexible images; images should scale within the grid and not overflow.
+3. Media query allows one to write specific styles for particular screen. Conditions to target when writing media query include; width, height, orientation (row/column)
 
 
 
