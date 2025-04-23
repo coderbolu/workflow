@@ -9,6 +9,7 @@ Don't mix units i.e do not use px, rem. em in one code.
 
 
 RESPONSIVE DESIGN
+This is an approach to web development that  ensure a website layout and content adapt to various screen size and devices including desktop, tablets and smartphone rather than creating multiple versions of the site for each device. It allows you use one design to work across all devices or screen sizes seamlessly or across all platforms seamlessly.
 Core principles of responsive design:
 1. Flexible,fluid layout (flex box ,or grid layout).
 2. Flexible images; images should scale within the grid and not overflow.
