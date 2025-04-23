@@ -101,6 +101,49 @@ border-radius: 5px;
 box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.service h3 {
+font-size: 1.8;
+margin-bottom: 10px;
+}
+
+.service p {
+font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+background-color: #007BFF;
+color: white;
+padding: 60px 20px;
+text-align: center;
+}
+
+#contact h2 {
+font-size: 2.5rem;
+margin-bottom: 28px;
+}
+
+#contact form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#contact input,
+#contact textarea {
+width: 100%;
+max-width: 600px;
+padding: 10px;
+margin-bottom: 15px;
+border: 2px solid #ddd;
+border-radius: 5px;
+}
+
+
+
+
+
+
 
 
 /* media query for mobile (smaller than 640px) */
