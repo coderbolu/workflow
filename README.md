@@ -22,5 +22,4 @@ Desktops- 1025px- above
 Approaches to web design 
 -Desktop approach
 -Mobile approach
- The mobile first approach is the best way to start your design but one can really start with anyone. 
-
+ The mobile first approach is the best way to start your design, i.e building for mobile screen first before any other one, but one can really start with anyone. 
