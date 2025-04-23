@@ -37,6 +37,37 @@ header nav ul li {
 margin: 0 10px;
 }
 
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+header nav ul li a:hover {
+color: #ddd;
+}
+
+/* Hero Section */
+#home {
+background-color: #007BFF;
+color: #fff;
+text-align: center;
+padding: 60px 20px;
+}
+
+#home h2 {
+font-size: 3rem;
+}
+
+#home .btn {
+background-color: #fff;
+color: #007BFF;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+}
+
+
 
 /* media query for mobile (smaller than 640px) */
 @media (max-width: 640px) {
