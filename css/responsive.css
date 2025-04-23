@@ -1,2 +1,14 @@
 /* media query for mobile (smaller than 640px) */
-@media (max-width): 640px
+@media (max-width: 640px){
+
+
+}
+
+
+/* media query for tablet ( from 651px to 1024px) */
+@media (min-width: 640px) and (max-width:1024px){
+
+
+}
+
+/* media query for laptop ( from 1025px to above) */
