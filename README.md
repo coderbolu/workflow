@@ -5,4 +5,7 @@ absolute unit and relative unit. Absolute unit are unit that are fixed, they are
 Desktop first approach and mobile first approach.
 Bootstrap is a component based css, you input the component you want and it styles it for you and makes it responsive to your screen size, the only modifications bootstraps needs is the color.
 Relative Unit are scaled based on the size of an element or the setting you have given to it. Examples include: "em-relative to the font size of the parent container", "rem- is relative to the font size of the root html element". "%- is used to define some kind of things like parent elements such as: images". For rel unit, the defined unit given to the parent element overrides the child element, but when a child element is given a unit, it is divided by the parent element (there are some calculations involved). Viewport is added on html, on meta background.
-Don't mix units
+Don't mix units i.e do not use px, rem. em in one code.
+
+Core principles of responsive design:
+Flexible,fluid layout (flexbox ,or grid layout)
