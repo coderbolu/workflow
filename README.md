@@ -12,9 +12,9 @@ Core principles of responsive design:
 2. Flexible images; images should scale within the grid and not overflow.
 3. Media query allows one to write specific styles for particular screen. Conditions to target when writing media query include; width, height, orientation (row/column), font-sizes. Users should be able to access your website at any point in time.
 Common screen sizes we have: small, large, tablets, small laptops and desktops. 
-Mobile phone-320px-480px
-Tablet-481px-768px
-Laptops-
-Desktops-
+Mobile phone- 320px-480px
+Tablet-481px- 768px
+Small laptops- 769px-1024px
+Desktops- 1025px- above
 
 Approaches to web design 
