@@ -67,6 +67,22 @@ border-radius: 5px;
 font-weight: bold;
 }
 
+#home .btn:hover {
+background-color: #ddd;
+}
+
+/* About Section */
+#about {
+background-color: #f4f4f4;
+padding: 60px 20px;
+text-align: center;
+}
+
+#about h2 {
+font-size: 2.5rem;
+}
+
+
 
 
 /* media query for mobile (smaller than 640px) */
