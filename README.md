@@ -8,4 +8,9 @@ Relative Unit are scaled based on the size of an element or the setting you have
 Don't mix units i.e do not use px, rem. em in one code.
 
 Core principles of responsive design:
-Flexible,fluid layout (flexbox ,or grid layout)
+1. Flexible,fluid layout (flexbox ,or grid layout).
+2. Flexible images and media query; images should scale within the grid and not overflow.
+
+
+
+Approaches to web design 
