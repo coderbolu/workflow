@@ -24,5 +24,5 @@ Approaches to web design
 -Desktop approach
 -Mobile approach
  The mobile first approach is the best way to start your design, i.e building for mobile screen first before any other one, but one can really start with anyone. 
-    08083449328-chisom's boyfriend
+    08083449328-Chisom's boyfriend
 Bootstrap: involves copying and pasting, it is a content delivery network. "Class 2, week 5- 43 minutes".
