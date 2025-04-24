@@ -217,9 +217,9 @@ padding: 20px 0;
     width:20rem;
 }
 
-.service-grid {
-    justify-content: center;
-    margin: 0 auto;
-
+#contact form {
+    margin:0, auto;
+    width:80%;
 }
+
 }
