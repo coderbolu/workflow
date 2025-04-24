@@ -180,15 +180,18 @@ padding: 20px 0;
 .service-grid {
     grid-template-columns: 1fr;
 }
-
-
 }
 
 
 /* media query for tablet ( from 641px to 1024px) */
 @media (min-width: 641px) and (max-width:1024px){
-
-
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.service-grid {
+    grid-template-columns: repeat (2, 1fr);
+}
 }
 
 /* media query for larger screen ( from 1025px and above) */
