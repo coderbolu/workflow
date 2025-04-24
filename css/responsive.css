@@ -168,7 +168,6 @@ padding: 20px 0;
 }
 
 
-
 /* media query for mobile (smaller than 640px) */
 @media (max-width: 640px) {
 
@@ -176,14 +175,14 @@ padding: 20px 0;
 }
 
 
-/* media query for tablet ( from 651px to 1024px) */
-@media (min-width: 640px) and (max-width:1024px){
+/* media query for tablet ( from 641px to 1024px) */
+@media (min-width: 641px) and (max-width:1024px){
 
 
 }
 
-/* media query for laptop ( from 1025px to above) */
-@media (min-width: 1024px){
+/* media query for larger screen ( from 1025px and above) */
+@media (min-width: 1025px){
     .container h1{
         text-align: center;
         font-size: 4rem;
