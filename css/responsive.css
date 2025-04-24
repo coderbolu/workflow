@@ -101,7 +101,7 @@ margin-bottom: 20px;
 
 .service-grid {
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+grid-template-columns: repeat(3, 1fr);
 gap:20px;
 }
 
@@ -177,6 +177,10 @@ padding: 20px 0;
 /* media query for mobile (smaller than 640px) */
 @media (max-width: 640px) {
 
+.service-grid {
+    grid-template-columns: 1fr;
+}
+
 
 }
 
@@ -211,6 +215,8 @@ padding: 20px 0;
 }
 
 .service-grid {
+    justify-content: center;
+    margin: 0 auto;
 
 }
 }
