@@ -183,7 +183,6 @@ padding: 20px 0;
 }
 
 /* media query for laptop ( from 1025px to above) */
-
 @media (min-width: 1024px){
     .container h1{
         text-align: center;
