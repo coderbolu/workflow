@@ -15,112 +15,11 @@
 }
 
 body{
-    /* background-color: #1f2937; */
-    display: flex;
-    flex-direction: column;
-}
-.h1{
-    font-family: var(--ROBOTO);
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin-left: 20px;
-    grid-auto-rows: ;
-}
-
-
-.menu-container {
-padding: 20px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-background-color: #1f2937;
-color: white;
-font-family: serif;
-
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    gap: 100px;
-}
-
-.h1{
-    font-size: 20px;
-    align-self: flex-start;
-
-}
-
-.first-section {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    
 }
 
-.first-section > h1 {
-    font-size: 40px;
-    align-self:center;
-
-}
-
-.button-1{
-font-size:20px;
-background-color: #3882f6;
-border-radius: 10px;
-color: #e5e7e8;
-padding: 5px 30px;
-margin-top: 10px;
-cursor: pointer;
-
-}
-
-.side{
-   display: flex;
-   justify-content: center;
-   flex-basis: 500px;
-   color: white;
-   background-color: #b3b3b3;
-   
-  
-}
-
-.second-section{
-    background-color: white;
-    flex-wrap: wrap;
-}
-
-.third-section{
-display: flex;
-flex-direction: column;
-background-color:#f2f2f2;
-font-size:35px;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-.third-section > h5 {
-align-self: flex-end;
-padding: 0;
-}
-
-.fourth-section{
-    margin: 150px 100px;
-    color: white;
-    background-color:#3882f6;
-    padding: 50px;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
 
 
 button {
@@ -135,7 +34,6 @@ button {
     cursor: pointer;
 }
 
-  
 
 footer{
     display: flex;
