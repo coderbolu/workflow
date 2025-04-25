@@ -34,25 +34,25 @@ margin: 0 10px;
 .container {
 margin: 0 auto;
 max-width: 1200px;
-/* padding:30px; */
 }
 
 header {
 background-color: #1f2937;
 color: #fff;
-padding: 20px;
+/* padding: 20px; */
 }
         
 header nav ul {
 list-style: none;
 display: flex;
 justify-content:flex-end;
-padding-right: 30px;
+/* padding-right: 30px; */
 margin: 0 10px;
 }
         
 header nav ul li {
 margin: 0 15px;
+
 }
         
 header nav ul li a {
