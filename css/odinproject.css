@@ -47,12 +47,12 @@ header nav ul {
 list-style: none;
 display: flex;
 justify-content:flex-end;
-padding-right: 100px;
+padding-right: 30px;
 margin: 0 10px;
 }
         
 header nav ul li {
-margin: 0 10px;
+margin: 0 15px;
 }
         
 header nav ul li a {
