@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'););
+@import url(@import url;('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'););
 
 *{
     margin: 0;
@@ -20,6 +20,7 @@ display: flex;
 flex-direction: column;
 font-family: var(--ROBOTO);
 width: 100%;
+padding:100px;
 }
 
 
@@ -28,12 +29,14 @@ width: 100%;
 display: flex;
 justify-content:flex-start;
 padding-left: 100px;
-margin: 0 10px;
+align-items: center;
+/* margin: 0 10px; */
 }
 
 .container {
 margin: 0 auto;
-max-width: 1200px;
+/* max-width: 1200px; */
+padding-left: 30px;
 }
 
 header {
@@ -59,7 +62,41 @@ header nav ul li a {
 color: #fff;
 text-decoration: none;
 }
-        
+      
+.website {
+display: flex;
+flex-direction: row;
+}
+.website h1 {
+font-size: 2rem;
+font-weight: 900;
+}
+
+.website p {
+font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 button {
