@@ -29,7 +29,8 @@ Approaches to web design
 
 BOOTSTRAP
 Bootstrap: involves copying and pasting, it is a content delivery network. "Class 2, week 5- 43 minutes". It is for fast-paced building.
-tailwind is rigid.
+tailwind is rigid, in some cases it gives the flexibility to manipulate some of the styles by writing your own style in it. For instance, tailwind has the whole color embedded in it but you can add your own custom color. It is not as easy in bootstrap with tailwind css.
+
 " you can search for bootstrap5 template". 
 The fastest way to go about bootstrap is to know the components you need, check out the template online, download the template file and start using it.
 There are 2 ways of using bootstrap:
