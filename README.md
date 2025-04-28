@@ -28,8 +28,8 @@ Approaches to web design
 
 
 BOOTSTRAP
-Bootstrap: involves copying and pasting, it is a content delivery network. "Class 2, week 5- 43 minutes". It is for fast-paced building.
-tailwind is rigid, in some cases it gives the flexibility to manipulate some of the styles by writing your own style in it. For instance, tailwind has the whole color embedded in it but you can add your own custom color. Tailwind is familiar to vanilla css and it is written "inline". You have to be very grounded in normal css to  move into tailwind. It involves the whole component of css but it is written inside the html file not as external css file.
+Bootstrap: involves copying and pasting, it is a content delivery network. "Class 2, week 5- 43 minutes". It is for fast-paced building. Bootstrap is more rigid
+Tailwind is not rigid, in some cases it gives the flexibility to manipulate some of the styles by writing your own style in it. For instance, tailwind has the whole color embedded in it but you can add your own custom color. Tailwind is familiar to vanilla css and it is written "inline". You have to be very grounded in normal css to  move into tailwind. It involves the whole component of css but it is written inside the html file not as external css file.
 It is not as easy in bootstrap with tailwind css.
 
 " you can search for bootstrap5 template". 
