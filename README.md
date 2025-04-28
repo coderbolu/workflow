@@ -36,6 +36,7 @@ It is not as easy in bootstrap with tailwind css.
 The fastest way to go about bootstrap is to know the components you need, check out the template online, download the template file and start using it.
 
 If you are using a color that is not part of bootstrap, what you have to do is give that particular element a class and style it in an external css. If it was tailwind css, you will just have to write out the bg and put the color you want in front of it.
+bg-gradient: gives the background color an opacity on our browser.
 
 There are 2 ways of using bootstrap:
 1. copy the starter template
