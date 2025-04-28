@@ -3,3 +3,16 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
+
+h2 {
+    letter-spacing: 1.4rem;
+    padding-top: 90px;
+}
+
+h4 {
+    letter-spacing: 1.5rem;
+}
+
+.pt {
+    padding-top: 150px
+}
