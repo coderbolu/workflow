@@ -31,3 +31,6 @@ BOOTSTRAP
 Bootstrap: involves copying and pasting, it is a content delivery network. "Class 2, week 5- 43 minutes". It is for fast-paced building.
 tailwind is rigid.
 " you can search for bootstrap5 template". 
+
+There are 2 ways of using bootstrap:
+1. copy the starter template
