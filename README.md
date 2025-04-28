@@ -37,7 +37,7 @@ The fastest way to go about bootstrap is to know the components you need, check 
 
 If you are using a color that is not part of bootstrap, what you have to do is give that particular element a class and style it in an external css. If it was tailwind css, you will just have to write out the bg and put the color you want in front of it.
 bg-gradient: gives the background color an opacity on our browser.
-pt: padding
+pt/pb/pl/pr: padding top/ padding bottom/ padding left/ padding right.
 vh:height
 bg:background
 
