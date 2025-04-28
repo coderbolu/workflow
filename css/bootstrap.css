@@ -16,3 +16,8 @@ h4 {
 .pt {
     padding-top: 150px
 }
+
+.service .icon-box .icon {
+    margin: 0 auto;
+    height: 100px;
+}
