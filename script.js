@@ -71,7 +71,7 @@ console.log(bolu)
 
 const age = 18;
 
-if (age >= 18)js {
+if (age >= 18) {
 console.log ("Sarah can start taking alcohol")
 } else {
     const yearsLeft = 18 - age;
