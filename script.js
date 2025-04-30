@@ -5,7 +5,6 @@ console.log(myName)
 myName = "Boluwatife"
 
 const myTitle = "learning javascript"
-_job
 
 
 null // string is used to leave comment on js
