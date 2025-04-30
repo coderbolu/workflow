@@ -38,3 +38,8 @@ x++// means x plus one or "x--" means x minus one
 console.log (ageJack > ageSarah) // true
 console.log (ageJack >= ageSarah) // true
 console.log (ageJack < ageSarah) // false
+
+
+const weightMark = 78;
+const heightMark = 1.69; // in meters
+const weightJohn = 92;
