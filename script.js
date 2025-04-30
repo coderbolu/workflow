@@ -48,7 +48,7 @@ const BMIJohn = weightJohn / heightJohn ** 2
 
 const MarkBMIGreater = BMIMark > BMIJohn
 
-console.log(BMImark, BMIJohn, MarkBMIGreater)
+console.log(BMIMark, BMIJohn, MarkBMIGreater)
 
 //String and template literals is write properly in js
 
