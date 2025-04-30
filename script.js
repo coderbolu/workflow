@@ -46,4 +46,7 @@ const weightJohn = 92;
 const heightJohn = 1.95; // in meters
 const BMIMark = weightMark / heightMark ** 2
 const BMIJohn = weightJohn / heightJohn ** 2
-console.log(BMImark, BMIJohn)
+
+const MarkBMIGreater = BMIMark > BMIJohn
+
+console.log(BMImark, BMIJohn, MarkBMIGreater)
