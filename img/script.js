@@ -1,2 +1,4 @@
 let myName ="Boluwatife"
-co
+const myJob ="Frontend Developer"
+
+console.log(myName)
