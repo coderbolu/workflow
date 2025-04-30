@@ -4,7 +4,7 @@ console.log(myName)
 
 myName = "Boluwatife"
 
-mytitle = "learning javascript"
+const myTitle = "learning javascript"
 _job
 
 
