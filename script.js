@@ -52,3 +52,10 @@ const MarkBMIGreater = BMIMark > BMIJohn
 console.log(BMImark, BMIJohn, MarkBMIGreater)
 
 //String and template literals
+
+const name = "Boluwatife";
+const job = "Frontend Developer";
+const birthYear = 2000;
+
+const bolu = "I'm " + name + ', a ' + (year - birthYear)  + ' years old ' + job 
+console.log(bolu)
