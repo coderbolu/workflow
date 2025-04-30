@@ -9,3 +9,5 @@ _job
 
 
 null // string
+
+console.log (typeof myname)
