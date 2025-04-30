@@ -55,6 +55,7 @@ console.log(BMIMark, BMIJohn, MarkBMIGreater)
 const name = "Boluwatife";
 const job = "Frontend Developer";
 const birthYear = 2000;
+const year = 2025;
 
 //const bolu = "I'm " + name + ', a ' + (year - birthYear)  + ' years old ' + job 
 //console.log(bolu)
