@@ -51,7 +51,7 @@ const MarkBMIGreater = BMIMark > BMIJohn
 
 console.log(BMImark, BMIJohn, MarkBMIGreater)
 
-//String and template literals
+//String and template literals is write prperly in js
 
 const name = "Boluwatife";
 const job = "Frontend Developer";
