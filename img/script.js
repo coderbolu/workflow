@@ -19,3 +19,10 @@ console.log (typeof myname)
 
     const ageJack = now - 1991
     console.log(ageJack)
+
+
+    ///Assignment operators: are short forms to which we can add numbers
+
+
+let x = 10 + 5 //15
+x += 10 // x = x + 10 = 25
