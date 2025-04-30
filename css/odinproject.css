@@ -19,7 +19,7 @@ body{
 display: flex;
 flex-direction: column;
 font-family: var(--ROBOTO);
-width: 100%;
+max-width: 100%;
 padding:100px;
 }
 
