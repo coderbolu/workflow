@@ -69,7 +69,7 @@ console.log(bolu)
 ///Decision making in js
 //if / else statement
 
-const age = 18;
+const age = 15;
 
 if (age >= 18) {
 console.log ("Sarah can start taking alcohol")
