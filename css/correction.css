@@ -30,7 +30,7 @@
   .header .nav-links a {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-self: flex-end;
     color: white;
     margin-left: 20px;
     text-decoration: none;
@@ -111,7 +111,8 @@
   .quote .author {
     font-weight: 900;
     margin-top: 1rem;
-    font-size: 3.25rem;
+    font-size: 1.25rem;
+    text-align: end;
   }
   
   /* Call to Action */
