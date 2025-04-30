@@ -60,9 +60,11 @@ const birthYear = 2000;
 //const bolu = "I'm " + name + ', a ' + (year - birthYear)  + ' years old ' + job 
 //console.log(bolu)
 
-
 //to rewrite this...
 
 const bolu = `I'm ${name}, a ${year - birthYear} years old ${job}`
 
 console.log(bolu)
+
+///Decision making in js
+//if / else statement
