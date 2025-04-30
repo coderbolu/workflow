@@ -18,7 +18,8 @@ console.log (typeof myname)
     const now =2039
 
     const ageJack = now - 1991
-    console.log(ageJack)
+    const ageSarah = now - 2018
+    console.log(ageJack, ageSarah)
 
 
     ///Assignment operators: are short forms to which we can add numbers
@@ -33,4 +34,7 @@ x++// means x plus one or "x--" means x minus one
 
 
 // Comparison operators: are used to compare two values and return a boolean value (true or false) 
-//i.e the greater than or less than sign
+//i.e the greater than or less than sign > < >= <=
+console.log (ageJack > ageSarah) // true
+console.log (ageJack >= ageSarah) // true
+console.log (ageJack < ageSarah) // false
