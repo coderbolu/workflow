@@ -28,3 +28,9 @@ let x = 10 + 5 //15
 x += 10 // x = x + 10 = 25
 
 x *= 4// x = x * 4 = 100
+
+x++// means x plus one or "x--" means x minus one
+
+
+// Comparison operators: are used to compare two values and return a boolean value (true or false) 
+//i.e the greater than or less than sign
