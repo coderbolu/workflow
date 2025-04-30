@@ -9,7 +9,7 @@ const myTitle = "learning javascript"
 
 null // string is used to leave comment on js
 
-console.log (typeof myname)
+//console.log (typeof myname)
 
     ///basic operators
     //+-/*
