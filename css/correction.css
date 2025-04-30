@@ -101,10 +101,12 @@
   /* Quote Section */
   .quote {
     background-color: #e5e7eb;
-    padding: 4rem 2rem;
+    padding: 4rem 12rem;
     color: #1f2937;
     font-style: italic;
-    font-size: 2rem;
+    font-variant:light;
+    font-size: 1.5rem;
+    font-weight: 100;
     text-align: center;
   }
   
@@ -112,7 +114,9 @@
     font-weight: 900;
     margin-top: 1rem;
     font-size: 1.25rem;
-    text-align: end;
+    text-align:end;
+    padding-right: 40px;
+    font-style: normal;
   }
   
   /* Call to Action */
