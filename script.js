@@ -50,3 +50,5 @@ const BMIJohn = weightJohn / heightJohn ** 2
 const MarkBMIGreater = BMIMark > BMIJohn
 
 console.log(BMImark, BMIJohn, MarkBMIGreater)
+
+//String and template literals
