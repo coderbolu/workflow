@@ -23,7 +23,7 @@
   }
   
   .header .logo {
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: bold;
   }
   
@@ -43,7 +43,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
+    padding-left: 100px;
+    padding-right: 100px;
   }
   
   .hero .text {
@@ -145,6 +147,7 @@
   .cta .down {
     font-size: 0.85rem;
     color: #d1d5db;
+    padding-left: 5rem;
   }
   
   .cta .button {
