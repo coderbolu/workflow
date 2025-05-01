@@ -9,7 +9,7 @@
   body {
     background-color: #f9fafb;
     color: #1f2937;
-    line-height: 1.6;
+    /* line-height: 1.6; */
   }
   
   /* Header */
@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 4rem 2rem; */
+    padding: 4rem 2rem;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -53,13 +53,13 @@
   }
   
   .hero .text h1 {
-    font-size: 48px;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   
   .hero .text p {
     color: #d1d5db;
-    font-size: 18px;
+    font-size: 1rem;
   }
   
   .hero .text .button {
@@ -108,7 +108,7 @@
     color: #1f2937;
     font-style: italic;
     font-variant:light;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 100;
     text-align: center;
   }
@@ -139,25 +139,27 @@
   }
   
   .cta .cta-text {
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 1.0rem;
+    font-weight: 600;
     align-self: flex-start;
+    padding-left: 15px;
   }
   
   .cta .down {
     font-size: 0.85rem;
     color: #d1d5db;
-    padding-left: 5rem;
+    padding-right: 15px;
     font-weight: 300;
+    align-self: flex-start;
   }
   
   .cta .button {
     background-color: #3882f6;
     color: white;
-    align-self: flex-end;
+    align-self: end;
     padding: 0.75rem 1.5rem;
     border-color:white;
-    border-radius: 5px;
+    border-radius: 10px;
     border-width: 0.20rem;
     font-weight: 600;
     cursor: pointer;
