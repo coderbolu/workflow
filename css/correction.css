@@ -111,6 +111,12 @@
     width: 150px;
     text-align: center;
   }
+
+  .card p{
+    display: flex;
+    flex-direction: column;
+
+  }
   
   /* Quote Section */
   .quote {
@@ -144,7 +150,6 @@
     border-radius: 10px;
     justify-content: space-evenly;
     border-color:white ;
-    max-width: 800px;
   }
   
   .cta .cta-text {
