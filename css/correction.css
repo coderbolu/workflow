@@ -148,15 +148,16 @@
     color: #1f2937;
     font-style: italic;
     font-variant:light;
-    font-size: 1.50rem;
-    font-weight:lighter;
+    font-size: 1.55rem;
+    gap:1rem;
+    font-weight:30rem;
     text-align: left;
   }
   
   .quote .author {
-    font-weight: 900;
+    font-weight: 800;
     margin-top: 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-align:end;
     padding-right: 40px;
     font-style: normal;
