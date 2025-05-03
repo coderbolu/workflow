@@ -38,10 +38,21 @@
     font-weight: bold;
     padding-left: 70px;
   }
-  
-  .header .nav-links a {
+
+  header nav ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around
+    }
+    
+    header nav ul li {
+    margin: 0 10px;
+    }
+
+  header .nav-links a {
+
+    display: flex;
+    flex-direction:column;
     color: white;
     margin-left: 20px;
     text-decoration: none;
