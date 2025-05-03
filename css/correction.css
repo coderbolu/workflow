@@ -44,19 +44,19 @@
     display: flex;
     justify-content: space-around;
     padding-right: 70px;
-}
+    }
     
     .header nav ul li {
     margin: 0 10px;
     }
     
     .header .nav-links a {
-
     display: flex;
     flex-direction:column;
     color: white;
     margin-left: 20px;
     text-decoration: none;
+    
   }
   
   /* Hero Section */
@@ -72,7 +72,7 @@
   }
   
   .hero .text {
-    max-width: 50%;
+    max-width: 40%;
   }
   
   .hero .text h1 {
@@ -82,7 +82,8 @@
   
   .hero .text p {
     color: #d1d5db;
-    font-size: 0.95rem;
+    font-size: 0.75rem;
+    font-weight:100;
   }
   
   .hero .text .button {
