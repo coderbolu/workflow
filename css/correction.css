@@ -126,9 +126,9 @@
     /* align-items: baseline; */
   }
 
-  .cards p{
+  .card p{
     display: flex;
-    align-items: baseline;
+    text-align: baseline;
 
   }
   
