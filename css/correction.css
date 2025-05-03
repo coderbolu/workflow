@@ -68,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem rem;
+    padding: 4rem;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -101,7 +101,7 @@
   
   .hero .image {
     max-width: 50%;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
     
 
