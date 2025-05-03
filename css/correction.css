@@ -38,18 +38,19 @@
     font-weight: bold;
     padding-left: 70px;
   }
-
-  header nav ul {
+  
+  .header nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around
-    }
+    justify-content: space-around;
+    padding-right: 70px;
+}
     
-    header nav ul li {
+    .header nav ul li {
     margin: 0 10px;
     }
-
-  header .nav-links a {
+    
+    .header .nav-links a {
 
     display: flex;
     flex-direction:column;
@@ -122,13 +123,12 @@
     border-radius: 10px;
     padding: 1rem;
     width: 150px;
-    text-align: center;
-    align-items: baseline;
+    /* align-items: baseline; */
   }
 
-  .card p{
+  .cards p{
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
 
   }
   
