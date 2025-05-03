@@ -195,10 +195,10 @@
     background-color: #3882f6;
     color: white;
     align-self: end;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1.85rem;
     border-color:white;
     border-radius:8px;
-    border-width: 0.20rem;
+    border-width: 0.15rem;
     font-weight: 600;
     cursor: pointer;
   }
