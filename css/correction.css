@@ -99,6 +99,12 @@
     cursor: pointer;
   }
   
+
+  .hero .image {
+    max-width: 50%;
+    padding-bottom: 3rem;
+  }
+    /* 
   /* Info Section */
   .info {
     padding: 4rem 2rem;
