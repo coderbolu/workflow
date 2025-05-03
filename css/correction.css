@@ -216,18 +216,17 @@
 
   /* Responsive Design */
 
+
+
+
 @media (max-width: 640px) {
-
-}
-
-@media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .hero .text, .hero .image {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
   .info .cards {
