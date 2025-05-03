@@ -78,3 +78,5 @@ console.log ("Sarah can start taking alcohol")
     console.log (`Sarah is too young to drink, she has to wait ${yearsLeft} years`)
 }
     
+
+let colors =""
