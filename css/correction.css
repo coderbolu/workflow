@@ -134,7 +134,7 @@
   /* Call to Action */
   .cta {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #3882f6;
     color: white;
     /* margin: 4rem; */
@@ -182,6 +182,10 @@
 
 
   /* Responsive Design */
+
+@media (max-width: 640px) {
+    
+}
 
 @media (max-width: 768px) {
   .hero {
