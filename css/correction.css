@@ -266,7 +266,42 @@
     flex-direction: column;
     align-items: self-start;
     padding-left: 3rem;
+    padding-top: 2rem;
   }
+
+  .hero .text {
+    max-width: 30%;
+  }
+  
+  .hero .text h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  
+  .hero .text p {
+    color: #d1d5db;
+    font-size: 0.75rem;
+    font-weight:100;
+    line-height: 1rem;
+  }
+  
+  .hero .text .button {
+    margin-top: 1rem;
+    background-color: #3882f6;
+    color: white;
+    padding: 0.60rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .hero .image {
+    max-width: 20%;
+    padding-bottom: 2rem;
+  }
+    
 
   .hero .text, .hero .image {
     /* max-width: 100%; */
