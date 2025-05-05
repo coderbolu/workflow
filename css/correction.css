@@ -240,10 +240,7 @@
     /* max-width: 100%; */
   }
 
-  .info .cards {
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .cta {
     flex-direction: column;
@@ -274,5 +271,10 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 900;
+  }
+
+  .info .cards {
+    flex-direction: column;
+    align-items: center;
   }
 }
