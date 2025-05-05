@@ -220,15 +220,37 @@
 @media (max-width: 640px) {
 
     body{
-        padding: 0rem;
+     padding: 0rem;
+     
 
     }
 
     .header .logo {
-        font-size: 0.75rem;
-        font-weight: 600;
-        padding-left: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding-left: 40px;
       }
+
+    .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 50px; */
+    }
+        
+    .header nav ul li {
+    margin: 0 0.25rem;
+    }
+        
+    .header .nav-links a {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight:20;
+    font-size: .55rem;
+    }
 
 
   .hero {
@@ -239,8 +261,6 @@
   .hero .text, .hero .image {
     /* max-width: 100%; */
   }
-
-
 
   .cta {
     flex-direction: column;
