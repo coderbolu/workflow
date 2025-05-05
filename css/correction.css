@@ -234,14 +234,14 @@
     .header .logo {
     font-size: 0.75rem;
     font-weight: 600;
-    padding-left: 40px;
+    padding-left: 20px;
       }
 
     .header nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    /* padding-right: 50px; */
+    padding-right: 20px;
     }
         
     .header nav ul li {
@@ -252,7 +252,6 @@
     display: flex;
     flex-direction:column;
     color: white;
-    margin-right: 20px;
     text-decoration: none;
     font-weight:20;
     font-size: .55rem;
