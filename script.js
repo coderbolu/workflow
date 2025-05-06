@@ -110,4 +110,4 @@ return `Good evening, ${name}`
 }
 
 console.log(greet("Boluwatife"))
-console.log("Ifeade")
+console.log(greeting("Ifeade"))
