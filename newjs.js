@@ -19,5 +19,16 @@ document.querySelector(".check").addEventListener("click", function(){
         displayMessage ("You guessed correctly");
         document.querySelector(".number").textContent = secretNumber;
         document.querySelector("body").style.backgroundColor = "#FFC0CB"
+
+
+        if(score > highScore) {
+            highScore = score
+            document.querySelector(".highscore").textContent = highScore
+
+        }
+    } else if (guess !== secretNumber) {
+        if (score > 1) {
+            displayMessage(guess > secretNumber ? "Your guess is too high")
+        }
     }
 })
