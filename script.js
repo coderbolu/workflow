@@ -83,9 +83,11 @@ console.log ("Sarah can start taking alcohol")
 //All application are built on functions.
 // Functions are declared using the function keyword followed by the name of the function, parentheses and curly braces.
 // Two types of functions are used in js: function declaration and function expression, there is also arrow function.
-// Function declaration is when you declare a function using the function keyword and give it a name.
+// Function declaration is when you declare a function using the function keyword and give it a name, without attaching a variable to it.
 // Function expression is when you declare a function using the function keyword and assign it to a variable.
 
+
+//Function expression
 function myFunction (a, b) {
     return a + b; 
 }
@@ -95,6 +97,8 @@ console.log(myFunction(15, 67))
 console.log(myFunction(25, 70)) 
 console.log(myFunction(35, 30)) 
 
+
+//Function declaration
 function greet(name) {
     return `Hello, my name  is ${name}`
 }
