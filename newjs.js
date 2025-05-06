@@ -10,11 +10,13 @@ const displayMessage = (".message") => {
 document.querySelector(".check").addEventListener("click", function(){
     const guess= Number(document.querySelector(".guess").value)
 
+    //Number
     if (!guess) {
         displayMessage("Enter a valid number")
 
         ///when a player guesses the right number
     }else if (guess === secretNumber) {
-
+        displayMessage ("You guessed correctly");
+        document.querySelector(".number").textContent = secretNumber;
     }
 })
