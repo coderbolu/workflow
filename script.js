@@ -121,3 +121,20 @@ function fruitProcessor (apples, oranges) {
 
 const appleJuice = fruitProcessor(10, 5)
 console.log(appleJuice)
+
+
+
+function cutFruitPiece() {
+    return fruit * 4
+}
+
+
+function fruitProcessor(apples, oranges) {
+    const applePieces = cutFruitPiece(apples)
+    const orangesPieces = cutFruitPiece(oranges)
+
+    const juice = `Juice with ${applePieces} pieces of apples and ${orangesPieces} pieces of oranges`
+    return juice;
+}
+
+console.log(fruitProcessor(5, 10))
