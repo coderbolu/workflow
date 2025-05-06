@@ -147,5 +147,16 @@ const calcAge = function (birthYear) {
 
 const yearsUntilRetirement = function (birthYear, firstName) {
     const age = calcAge(birthYear)
-    const retirement = 65 - age
+    const retirement = 65 - age;
+
+ 
+    if(retirement > 0) {
+        console.log (`${firstName} retire in ${retirement} years and hands over to ${names}`)
+        return retirement
+    } else {
+        console.log (`${firstName} has retired already and handed over to ${names}`)
+        return - 1
+    }
 }
+
+console.log(yearsUntilRetirement(2002, "Boluwatife"))
