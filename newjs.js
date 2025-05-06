@@ -31,6 +31,9 @@ document.querySelector(".check").addEventListener("click", function(){
             displayMessage(guess > secretNumber ? "Your guess is too high": "Your guess is too low")
             score--
             document.querySelector(".score").textContent = score
+        } else {
+            displayMessage("Sorry, you lost the game")
+            document.querySelector(".score").textContent = score
         }
     }
 })
