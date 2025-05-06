@@ -18,6 +18,6 @@ document.querySelector(".check").addEventListener("click", function(){
     }else if (guess === secretNumber) {
         displayMessage ("You guessed correctly");
         document.querySelector(".number").textContent = secretNumber;
-        document.querySelector(body).style.backgroundColor = ""
+        document.querySelector(body).style.backgroundColor = "#FFC0CB"
     }
 })
