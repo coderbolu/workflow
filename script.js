@@ -113,18 +113,17 @@ console.log(greet("Boluwatife"))
 console.log(greeting("Ifeade"))
 
 
-function fruitProcessor (apples, oranges) {
-    const juice = `This juice was created with ${apples} apples and ${oranges} oranges`
+//function fruitProcessor (apples, oranges) {
+  //  const juice = `This juice was created with ${apples} apples and ${oranges} oranges`
 
-    return juice 
+ //   return juice 
 }
 
-const appleJuice = fruitProcessor(10, 5)
-console.log(appleJuice)
+//const appleJuice = fruitProcessor(10, 5)
+//console.log(appleJuice)
 
 
-
-function cutFruitPiece() {
+function cutFruitPiece(fruit) {
     return fruit * 4
 }
 
