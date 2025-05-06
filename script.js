@@ -103,4 +103,11 @@ function greet(name) {
     return `Hello, my name  is ${name}`
 }
 
+
+const greeting = function(name) {
+return `Good evening, ${name}`
+
+}
+
 console.log(greet("Boluwatife"))
+console.log("Ifeade")
