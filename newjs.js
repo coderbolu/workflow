@@ -3,4 +3,6 @@ let score = 20;
 let highScore = 0
 
 
-con
+const displayMessage = (".message") => {
+    document.querySelector(".message").textContent = message
+}
