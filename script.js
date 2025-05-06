@@ -77,6 +77,7 @@ console.log ("Sarah can start taking alcohol")
     const yearsLeft = 18 - age;
     console.log (`Sarah is too young to drink, she has to wait ${yearsLeft} years`)
 }
-    
 
-let colors =""
+// Functions in js are reusable blocks of code that can be made use of over and over again.
+// They are used to perform a specific task and can take in parameters and return values.
+//All application are built on functions.
