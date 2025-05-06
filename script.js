@@ -94,3 +94,7 @@ console.log(myFunction(5, 10))
 console.log(myFunction(15, 67)) 
 console.log(myFunction(25, 70)) 
 console.log(myFunction(35, 30)) 
+
+function greet(name) {
+    
+}
