@@ -33,7 +33,7 @@ document.querySelector(".check").addEventListener("click", function(){
             document.querySelector(".score").textContent = score
         } else {
             displayMessage("Sorry, you lost the game")
-            document.querySelector(".score").textContent = score
+            document.querySelector(".score").textContent = 0
         }
     }
 })
