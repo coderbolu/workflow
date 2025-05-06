@@ -81,3 +81,16 @@ console.log ("Sarah can start taking alcohol")
 // Functions in js are reusable blocks of code that can be made use of over and over again.
 // They are used to perform a specific task and can take in parameters and return values.
 //All application are built on functions.
+// Functions are declared using the function keyword followed by the name of the function, parentheses and curly braces.
+// Two types of functions are used in js: function declaration and function expression, there is also arrow function.
+// Function declaration is when you declare a function using the function keyword and give it a name.
+// Function expression is when you declare a function using the function keyword and assign it to a variable.
+
+function myFunction (a, b) {
+    return a + b; 
+}
+
+console.log(myFunction(5, 10)) 
+console.log(myFunction(15, 10)) 
+console.log(myFunction(25, 10)) 
+console.log(myFunction(35, 10)) 
