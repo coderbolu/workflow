@@ -8,5 +8,7 @@ const displayMessage = (".message") => {
 }
 
 document.querySelector(".check").addEventListener("click", function(){
-    const guess=
+    const guess= Number(document.querySelector(".guess").value)
+
+    if guess
 })
