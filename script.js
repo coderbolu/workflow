@@ -87,7 +87,7 @@ console.log ("Sarah can start taking alcohol")
 // Function expression is when you declare a function using the function keyword and assign it to a variable.
 
 
-//Function expression
+
 function myFunction (a, b) {
     return a + b; 
 }
@@ -111,3 +111,13 @@ return `Good evening, ${name}`
 
 console.log(greet("Boluwatife"))
 console.log(greeting("Ifeade"))
+
+
+function fruitProcessor (apples, oranges) {
+    const juice = `This juice was created with ${apples} apples and ${oranges} oranges`
+
+    return juice 
+}
+
+const appleJuice = fruitProcessor(10, 5)
+console.log(appleJuice)
