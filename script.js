@@ -64,7 +64,7 @@ const year = 2025;
 
 const bolu = `I'm ${name}, a ${year - birthYear} years old ${job}`
 
-console.log(bolu)
+console.log(Bolu)
 
 ///Decision making in js
 //if / else statement
