@@ -91,6 +91,6 @@ function myFunction (a, b) {
 }
 
 console.log(myFunction(5, 10)) 
-console.log(myFunction(15, 10)) 
-console.log(myFunction(25, 10)) 
-console.log(myFunction(35, 10)) 
+console.log(myFunction(15, 67)) 
+console.log(myFunction(25, 70)) 
+console.log(myFunction(35, 30)) 
