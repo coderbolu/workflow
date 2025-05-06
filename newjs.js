@@ -6,3 +6,7 @@ let highScore = 0
 const displayMessage = (".message") => {
     document.querySelector(".message").textContent = message
 }
+
+document.querySelector(".check").addEventListener("click", function(){
+    const guess=
+})
