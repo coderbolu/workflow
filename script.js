@@ -62,7 +62,7 @@ const year = 2025;
 
 //to rewrite this...
 
-const bolu = `I'm ${name}, a ${year - birthYear} years old ${job}`
+const Bolu = `I'm ${name}, a ${year - birthYear} years old ${job}`
 
 console.log(Bolu)
 
