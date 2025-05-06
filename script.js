@@ -96,5 +96,7 @@ console.log(myFunction(25, 70))
 console.log(myFunction(35, 30)) 
 
 function greet(name) {
-    
+    return `Hello, my name  is ${name}`
 }
+
+console.log(greet("Boluwatife"))
