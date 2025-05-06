@@ -361,6 +361,8 @@
     padding-right: 15px;
     font-weight: 300;
     align-self: flex-start;
+    max-width: 50%;
+    margin-top: 0.50rem;
   }
   
   .cta .button {
@@ -373,6 +375,7 @@
     border-width: 0.15rem;
     font-weight: 600;
     cursor: pointer;
+
 }
 
 }
