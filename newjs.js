@@ -10,7 +10,7 @@ const displayMessage = (".message") => {
 document.querySelector(".check").addEventListener("click", function(){
     const guess= Number(document.querySelector(".guess").value)
 
-    //Number
+    //No number enter
     if (!guess) {
         displayMessage("Enter a valid number")
 
@@ -18,5 +18,6 @@ document.querySelector(".check").addEventListener("click", function(){
     }else if (guess === secretNumber) {
         displayMessage ("You guessed correctly");
         document.querySelector(".number").textContent = secretNumber;
+        document.querySelector(body).style.background
     }
 })
