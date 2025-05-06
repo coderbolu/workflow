@@ -3,7 +3,7 @@ let score = 20;
 let highScore = 0
 
 
-const displayMessage = (".message") => {
+const displayMessage = (message) => {
     document.querySelector(".message").textContent = message
 }
 
@@ -18,6 +18,6 @@ document.querySelector(".check").addEventListener("click", function(){
     }else if (guess === secretNumber) {
         displayMessage ("You guessed correctly");
         document.querySelector(".number").textContent = secretNumber;
-        document.querySelector(body).style.background
+        document.querySelector(body).style.backgroundColor = ""
     }
 })
