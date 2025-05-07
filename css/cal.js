@@ -38,6 +38,18 @@ function handlePercentClick(button) {
         customTip.classList.remove("border-orange")
         customTip.classList.add("bg-green-400")
         customTip.classList.remove("border-2")
-        customTip.classList.add("")
+        customTip.classList.add("bg-green-400");
+        customTip.value = "";
+        tipPercent = button.dataset.tipPercent
+        calcTip()
     }
 }
+
+
+
+tipButton.forEach((button) =>{
+    button.addEventListener("click", handlePercentClick(button))
+})
+
+
+customTi.addEventListener("input", (e) = )
