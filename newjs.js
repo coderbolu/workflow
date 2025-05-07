@@ -9,9 +9,10 @@ const displayMessage = (message) => {
     document.querySelector(".message").textContent = message
 }
 
-document.querySelector(".check").addEventListener("click", function(){
-    const guess= Number(document.querySelector(".guess").value)
+//types of eventListener: click, mouseHover(oce you have your mouse over a button, it it does something)
 
+document.querySelector(".check").addEventListener("click", function(){
+    const guess= Number(document.querySelector(".guess").value
     //No number enter
     if (!guess) {
         displayMessage("Enter a valid number")
