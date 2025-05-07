@@ -27,6 +27,8 @@ function calcTip() {
         const tipPerPerson = totalTip / people
         const totalPerPerson = Number((totalTip) + (bill)) /people
 
-        tipPerson.textContent = ${tipPerPerson.toFixed(2)};
+        tipPerson.textContent = `${tipPerPerson.toFixed(2)}`;
+        totalPerson.textContent = `${totalPerson.toFixed(2)}`
     }
 }
+
