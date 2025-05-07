@@ -1,4 +1,4 @@
-document.querySelector(".message").textContent = "Let's play our game"
+//document.querySelector(".message").textContent = "Let's play our game"
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1
 let score = 20;
@@ -16,7 +16,7 @@ document.querySelector(".check").addEventListener("click", function(){
     if (!guess) {
         displayMessage("Enter a valid number")
 
-        ///when a player guesses the right number
+    ///when a player guesses the right number
     }else if (guess === secretNumber) {
         displayMessage ("You guessed correctly");
         document.querySelector(".number").textContent = secretNumber;
