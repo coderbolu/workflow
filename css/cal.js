@@ -19,4 +19,7 @@ function calcTip() {
         resetButton.classList.remove("bg-green-750");
         resetButton.classList.add("bg-green-200");
     }
+    if(people === 0 || people === null) {
+        
+    }
 }
