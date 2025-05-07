@@ -81,7 +81,7 @@ peopleInput.addEventListener("input", (e) => {
     if (currVal == 0 ){
         peopleWarning.classList.add("hidden")
         peopleContainer.classList.add("#ff0000")
-        peopleContainer.classList.a
+        peopleContainer.classList.remove
     }
 
 
