@@ -1,4 +1,4 @@
-document.querySelector(".message")
+document.querySelector(".message").textContent = "Let's play our game"
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1
 let score = 20;
