@@ -20,6 +20,6 @@ function calcTip() {
         resetButton.classList.add("bg-green-200");
     }
     if(people === 0 || people === null) {
-        
+        tipPerson.textContent = "0.00"
     }
 }
