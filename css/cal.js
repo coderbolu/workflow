@@ -12,5 +12,11 @@ let tipPercent = 0;
 
 function calcTip() {
     const tipPerson = document.getElementById("tip-person");
-    const tipPeople =
+    const tipPeople = document.getElementById("total-person");
+
+
+    if(people !==0 || tipPercent !==0) {
+        resetButton.classList.remove("bg-green-750");
+        resetButton.classList.add("bg-green-200");
+    }
 }
