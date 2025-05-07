@@ -57,7 +57,7 @@ tipButton.forEach((button) =>{
 })
 
 
-customTi.addEventListener("input", (e) => {
+customTip.addEventListener("input", (e) => {
     const currVal = e.target.value;
     if(currVal <= 0 || currVal >=100){
         customTip.classList.add("#ff0000");
