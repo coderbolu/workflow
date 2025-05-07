@@ -36,22 +36,20 @@ function calcTip() {
 
 function handlePercentClick(button) {
     return() => {
-        tipButton.forEach((b) => {b.classList.remove("bg-green-400")})
-        customTip.classList.remove("border-orange")
-        customTip.classList.add("bg-green-400")
+        tipButton.forEach((b) => {b.classList.remove("bg-green-400")});
+
+        console.log(tipButton)
+        customTip.classList.remove("border-orange-400")
         customTip.classList.remove("border-2")
         customTip.classList.add("bg-green-400");
         customTip.value = "";
         tipPercent = button.dataset.tipPercent
 
-
         console.log(tipPercent)
-        
         
         calcTip()
     }
 }
-
 
 
 tipButton.forEach((button) =>{
