@@ -52,4 +52,16 @@ tipButton.forEach((button) =>{
 })
 
 
-customTi.addEventListener("input", (e) = )
+customTi.addEventListener("input", (e) => {
+    const currVal = e.target.value;
+    if(curvVal <= 0 || curvVal >=100){
+        customTip.classList.add("#ff0000");
+        customTip.classList.add("border-2")
+    }else {
+        customTip.classList.remove("#ff0000");
+        customTip.classList.add("border-2")
+    }
+       
+}
+
+ )
