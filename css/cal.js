@@ -43,6 +43,11 @@ function handlePercentClick(button) {
         customTip.classList.add("bg-green-400");
         customTip.value = "";
         tipPercent = button.dataset.tipPercent
+
+
+        console.log(tipPercent)
+        
+        
         calcTip()
     }
 }
