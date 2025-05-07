@@ -35,5 +35,6 @@ function calcTip() {
 function handlePercentClick(button) {
     return() => {
         tipButton.forEach((b) => {b.classList.remove("bg-green-400")})
+        customTip.classList.remove("border-orange")
     }
 }
