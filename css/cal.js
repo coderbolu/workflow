@@ -10,3 +10,7 @@ let people = 0;
 let tipPercent = 0;
 
 
+function calcTip() {
+    const tipPerson = document.getElementById("tip-person");
+    const tipPeople =
+}
