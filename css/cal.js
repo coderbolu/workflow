@@ -20,6 +20,11 @@ function calcTip() {
         resetButton.classList.add("bg-green-200");
     }
     if(people === 0 || people === null) {
-        tipPerson.textContent = "0.00"
+        tipPerson.textContent = "0.00";
+        totalPerson.textContent = "0.00"
+    } else {
+        const totalTip = bill * tipPercent;
+        const tipPerPerson = totalTip / people
+        const totalPerPerson = Number((totalTip) + (bill)) /people
     }
 }
