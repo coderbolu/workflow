@@ -54,14 +54,17 @@ tipButton.forEach((button) =>{
 
 customTi.addEventListener("input", (e) => {
     const currVal = e.target.value;
-    if(curvVal <= 0 || curvVal >=100){
+    if(curvVal <= 0 || currVal >=100){
         customTip.classList.add("#ff0000");
         customTip.classList.add("border-2")
     }else {
         customTip.classList.remove("#ff0000");
-        customTip.classList.add("border-2")
+        customTip.classList.add("border-2");
+        tipButton.forEach((b) => {b.classList.remove("#ff0000")});
+        tipPercent = currVal / 100
+        calcTip
     }
        
-}
+})
 
- )
+ 
