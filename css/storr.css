@@ -13,5 +13,11 @@
 
 body{
     font-family:var(--Inter);
-    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
 }
