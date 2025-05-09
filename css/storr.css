@@ -15,11 +15,22 @@ body{
     font-family:var(--Inter);
 }
 
+.bg-image {
+    position: absolute;
+    width: 100%;
+}
+
 .hero {
     display: flex;
     align-items: center;
     color: white;
     position: relative;
+}
+ 
+.hero nav ul {
+    display: flex;
+    list-style: none;
+
 }
 
 .navbar {
@@ -28,13 +39,8 @@ body{
     align-items: center;
 }
 
-.navbar {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-links a {
+.hero .nav-links a {
     color: white;
     text-decoration: none;
+    flex-direction: column;
 }
