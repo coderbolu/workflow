@@ -15,3 +15,16 @@
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 7%);
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background-color: var(--White);
+    font-family: var(--DMSans);
+    display: grid;
+    justify-content: center;
+}
+
