@@ -33,28 +33,28 @@ body{
     margin: 1rem;
     display: grid;
     grid-template-areas: 
-    "item1 item2 item2 item3"
-    "item1 item4 item5 item3"
-    "item6 item7 item8 item8";
+    "card1 card2 card2 card3"
+    "card1 card4 card5 card3"
+    "card6 card7 card8 card8";
     grid-auto-columns: 1fr;
     gap: 1.5rem;
 }
 
-.container .item {
+.container .card {
     padding: 2rem 2.65rem;
     border-radius:0.50rem;
 }
 
-.container .item:nth-child(1) {
-    grid-area: item1;
+.container .card:nth-child(1) {
+    grid-area: card1;
     background-color: var(--Yellow100);
     position: relative;
 }
     
 
-.container .item:nth-child(1) .upper {
+.container .card:nth-child(1) .upper {
     display: flex;
-    align-items: center;
+    align-cards: center;
     color: var(--white);
     position: relative;
     z-index: 5;
