@@ -38,7 +38,7 @@ img{
     border-top-right-radius: .50rem;
 }
 
-.product-card{
+.product-item{
     display: flex;
     flex-direction: column;
     max-width:350px;

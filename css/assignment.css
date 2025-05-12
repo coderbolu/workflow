@@ -41,7 +41,7 @@ img{
     border-bottom-left-radius: .50rem;
 }
 
-.product-card{
+.product-item{
     display: flex;
     width: 300px;
 }

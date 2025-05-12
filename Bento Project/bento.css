@@ -17,7 +17,7 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
 }
 
@@ -28,3 +28,19 @@ body{
     justify-content: center;
 }
 
+.container{
+    max-width: 1440px;
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item2 item3"
+    "item1 item4 item5 item3"
+    "item6 item7 item8 item8";
+    grid-auto-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.container .item {
+    padding: 2rem 2.65rem;
+    border-radius:0.50rem;
+}
