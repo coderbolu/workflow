@@ -259,8 +259,10 @@ body{
         text-align: left;
     }
 
-    ..container .card:nth-child(1) {
-        
+    .container .card:nth-child(1) {
+        padding: 2rem;
+        text-align: left;
+
     }
 
 }
