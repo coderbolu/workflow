@@ -200,6 +200,11 @@ body{
     margin-bottom: 1rem;
 }
 
-.container .card:nth-child(5) img {
-    position: absolute; 
+.container .card:nth-child(7) img {
+   margin-top:1.5rem;
 }
+
+.container .card:nth-child(8) {
+    grid-area: card8;
+}
+
