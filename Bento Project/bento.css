@@ -276,4 +276,8 @@ body{
         padding: 2.5rem 1rem 2.5rem 1rem; 
     }
 
+     .container .card:nth-child(3) .upper {
+        font-size: 2.25rem;
+    }
+
 }
