@@ -157,5 +157,10 @@ body{
 }
 
 .container .card:nth-child(4) {
-    
+    grid-area: card4;
+    padding: 1.75rem 2.25rem;
+}
+
+.container .card:nth-child(4) p {
+    margin-bottom: 2rem;
 }
