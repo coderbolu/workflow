@@ -113,7 +113,6 @@ body{
 .container .card:nth-child(2) {
     display: flex;
     flex-direction: column;
-    grid-area: card2;
     padding:2rem;
     text-align: center;
     font-weight: 500;
@@ -132,4 +131,9 @@ body{
 
 .container .card:nth-child(3) {
     grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
