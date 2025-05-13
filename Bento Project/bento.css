@@ -50,8 +50,8 @@ body{
     font-weight: 400;
 }
 
-.container{
-    max-width: 1440px;
+.container {
+    max-width: 1400px;
     margin: 1rem;
     display: grid;
     grid-auto-columns: 1fr;
@@ -65,7 +65,7 @@ body{
     "card1 card5 card6 card3"
     "card4 card5 card6 card3"
     "card4 card5 card6 card3"
-    "card4 card7 card8 card"
+    "card4 card7 card8 card8"
     "card4 card7 card8 card8"
     "card4 card7 card8 card8";
 }
