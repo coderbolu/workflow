@@ -131,4 +131,10 @@ background-color: var(--dark-grayish-blue);
     background-color: var(--dark-blackish-blue);
 }
 
-@media (max-width: )
+
+
+
+/* media query for mobile (smaller than 640px) */
+@media (max-width: 640px) {
+    
+}
