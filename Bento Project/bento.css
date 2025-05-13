@@ -121,4 +121,15 @@ body{
     justify-content: center;
 }
 
-.container .card:nth-child(2) 
+.container .card:nth-child(2) .diff {
+    color: var(--Yellow500);
+}
+
+.container .card:nth-child(2) img{
+    width: 250px;
+    margin: 1rem 0.5rem;
+}
+
+.container .card:nth-child(3) {
+    grid-area: card3;
+}
