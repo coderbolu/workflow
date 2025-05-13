@@ -206,5 +206,10 @@ body{
 
 .container .card:nth-child(8) {
     grid-area: card8;
+    padding:2rem;
+    display: grid;
+    grid-template-columns: 1.75fr 2fr;
+    align-items: center;
+    gap:1rem;
 }
 
