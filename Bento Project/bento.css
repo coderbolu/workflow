@@ -54,7 +54,7 @@ body{
 
 .container .card:nth-child(1) .upper {
     display: flex;
-    align-cards: center;
+    align-card: center;
     color: var(--white);
     position: relative;
     z-index: 5;
