@@ -22,7 +22,7 @@ img {
 }
 
 body{
-    background-color: var(--White);
+    background-color: #f2f2f2;
     font-family: var(--DMSans);
     display: grid;
     justify-content: center;
