@@ -57,11 +57,23 @@ body{
     font-weight: 500;
 }
 
+.mid {
+    font-size:2.25rem;
+    font-weight: 500;
+}
+
+.down {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
 .container .card:nth-child(1) {
     grid-area: card1;
     background-color: var(--Yellow100);
+  
     position: relative;
 }
-.container .card:nth-child(1) .person img,{
+.container .card:nth-child(1) {
 
 }
