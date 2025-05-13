@@ -130,3 +130,5 @@ background-color: var(--dark-grayish-blue);
     grid-area: item5;
     background-color: var(--dark-blackish-blue);
 }
+
+@media (max-width: )

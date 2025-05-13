@@ -213,3 +213,54 @@ body{
     gap:1rem;
 }
 
+/* media query for tablet ( from 641px to 1024px) */
+@media (min-width: 641px) and (max-width:1024px){
+   .container{
+    grid-auto-rows: initial;
+    grid-template-areas:
+    "card1 card1 card2 card2"
+    "card1 card1 card2 card2"
+    "card3 card3 card4 card4"
+    "card3 card3 card4 card4"
+    "card5 card5 card6 card6"
+    "card5 card5 card6 card6"
+    "card7 card7 card8 card8"
+    "card7 card7 card8 card8";
+   }
+
+    .container .card:nth-child(8) {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* media query for mobile (smaller than 640px) */
+@media (max-width: 640px) {
+    .container .card {
+        text-align: center
+    }
+
+    .container {
+         grid-template-columns:
+        "card2"
+        "card5"
+        "card6" 
+        "card3"
+        "card8"
+        "card7"
+        "card1" 
+        "card4";
+    }
+
+    .container .card:nth-child(4),
+    .container .card:nth-child(5),
+    .container .card:nth-child(6),
+    .container .card:nth-child(7)  {
+        text-align: left;
+    }
+
+    ..container .card:nth-child(1) {
+        
+    }
+
+}
