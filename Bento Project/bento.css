@@ -167,5 +167,39 @@ body{
 
 .container .card:nth-child(5) {
     grid-area: card5;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    position: relative;
+}
+
+.container .card:nth-child(5) p {
+    margin-top: 6rem;
+}
+
+.container .card:nth-child(5) img {
+    position: absolute; 
+}
+
+.container .card:nth-child(6) {
+    grid-area: card6;
+    padding: 1rem 2rem 1rem 2rem;
+    position: relative;
+}
+
+.container .card:nth-child(6) p {
+    margin-bottom: 1rem;
+}
+
+.container .card:nth-child(7) {
+    grid-area: card7;
+    padding: 1.5rem;
+}
+
+
+.container .card:nth-child(7) span {
+    display:block;
+    margin-bottom: 1rem;
+}
+
+.container .card:nth-child(5) img {
+    position: absolute; 
 }
