@@ -280,4 +280,18 @@ body{
         font-size: 2.25rem;
     }
 
+    .container .card:nth-child(3) img {
+        margin: 1rem 0;
+        position: initial;
+        height: initial;
+    }
+
+    .container .card:nth-child(5) p {
+        margin: 10rem;
+    }
+
+    .container .card:nth-child(8) {
+        padding: 1.5rem 4rem;
+    }
+
 }
