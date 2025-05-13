@@ -272,4 +272,8 @@ body{
         width: 250px;
     }
 
+    .container .card:nth-child(3) {
+        padding: 2.5rem 1rem 2.5rem 1rem; 
+    }
+
 }
