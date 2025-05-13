@@ -293,5 +293,11 @@ body{
     .container .card:nth-child(8) {
         padding: 1.5rem 4rem;
     }
+}
 
+
+@media (max-width: 540px) {
+    .container .card:nth-child(5) p {
+        margin: 5.5rem;
+    }
 }
