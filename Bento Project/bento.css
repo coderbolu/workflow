@@ -164,3 +164,8 @@ body{
 .container .card:nth-child(4) p {
     margin-bottom: 2rem;
 }
+
+.container .card:nth-child(5) {
+    grid-area: card5;
+    padding: 1rem 2rem;
+}
