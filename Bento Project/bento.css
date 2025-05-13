@@ -30,6 +30,26 @@ body{
     line-height: 1;
 }
 
+.upper {
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.social {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.mid {
+    font-size:2.25rem;
+    font-weight: 500;
+}
+
+.down {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 .container{
     max-width: 1440px;
     margin: 1rem;
@@ -51,37 +71,33 @@ body{
 }
 
 .container .card {
-    padding: 2rem 2.65rem;
+    overflow: hidden;
     border-radius:0.50rem;
 }
 
-.upper {
-    font-size: 2.75rem;
-    font-weight: 500;
-}
-
-.social {
-    font-size: 4rem;
-    font-weight: 500;
-}
-
-.mid {
-    font-size:2.25rem;
-    font-weight: 500;
-}
-
-.down {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
 
 .container .card:nth-child(1) {
-    grid-area: card1;
     background-color: var(--Yellow100);
-  
     position: relative;
 }
-.container .card:nth-child(1) {
 
+
+.container .card:nth-child(2),
+.container .card:nth-child(8) {
+    background-color: var(--Purple100);
+    color: var(--White);
+}
+
+.container .card:nth-child(3) {
+    background-color: var(--Purple100);
+}
+
+.container .card:nth-child(4),
+.container .card:nth-child(6) {
+    background-color: var(--Yellow500);
+}
+
+.container .card:nth-child(1),
+.container .card:nth-child(1) {
+    background-color: var(--Yellow500);
 }
