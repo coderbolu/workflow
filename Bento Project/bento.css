@@ -97,7 +97,7 @@ body{
     background-color: var(--Yellow500);
 }
 
-.container .card:nth-child(1),
-.container .card:nth-child(1) {
-    background-color: var(--Yellow500);
+.container .card:nth-child(5),
+.container .card:nth-child(7) {
+    background-color: var(--White);
 }
