@@ -213,8 +213,8 @@ body{
     gap:1rem;
 }
 
-/* media query for tablet ( from 641px to 1024px) */
-@media (min-width: 641px) and (max-width:1024px){
+/* media query for tablet ( 1024px) */
+@media (max-width:1024px){
    .container{
     grid-auto-rows: initial;
     grid-template-areas:
@@ -234,21 +234,21 @@ body{
 }
 
 
-/* media query for mobile (smaller than 640px) */
-@media (max-width: 640px) {
+/* media query for mobile (smaller than 768px) */
+@media (max-width: 768px) {
     .container .card {
-        text-align: center
+        text-align: center;
     }
 
     .container {
-         grid-template-areas:
+        grid-template-areas:
         "card2"
         "card5"
-        "card6" 
+        "card6"
         "card3"
         "card8"
         "card7"
-        "card1" 
+        "card1"
         "card4";
     }
 
@@ -257,6 +257,7 @@ body{
     .container .card:nth-child(6),
     .container .card:nth-child(7)  {
         text-align: left;
+    
     }
 
     .container .card:nth-child(1) {
@@ -298,6 +299,6 @@ body{
 
 @media (max-width: 540px) {
     .container .card:nth-child(5) p {
-        margin: 5.5rem;
+        margin: 6rem;
     }
 }
