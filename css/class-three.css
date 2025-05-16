@@ -136,5 +136,34 @@ background-color: var(--dark-grayish-blue);
 
 /* media query for mobile (smaller than 640px) */
 @media (max-width: 640px) {
-    
+    .testimonials-grid {
+        grid-template-areas: 
+        "item1 item1"
+        "item2 item2"
+        "item3 item3"
+        "item4 item4"
+        "item5 item5";
+    }
+
+    .testimonials-grid .item:nth-child(4) .top-quote {
+        padding-left:0rem;
+    }
+
+    .testimonials-grid .item:nth-child(1) .bottom-quote-icon {
+        width: 100px;
+        position: absolute;
+        top: 0;
+        right: 50px;
+    }
+    .testimonials-grid .item:nth-child(1) {
+        padding: 2rem 1.5rem;
+    }
+    .testimonials-grid .item:nth-child(2) {
+        padding: 2rem 1.5rem;
+    }
+
+    .testimonials-grid .item {
+        text-align: center;
+    }
+
 }
