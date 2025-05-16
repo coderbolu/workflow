@@ -146,7 +146,8 @@ background-color: var(--dark-grayish-blue);
     }
 
     .testimonials-grid .item:nth-child(4) .top-quote {
-        padding-left:0rem;
+        display: flex;
+    
     }
 
     .testimonials-grid .item:nth-child(1) .bottom-quote-icon {
@@ -161,9 +162,18 @@ background-color: var(--dark-grayish-blue);
     .testimonials-grid .item:nth-child(2) {
         padding: 2rem 1.5rem;
     }
+}
 
-    .testimonials-grid .item {
-        text-align: center;
+@media (max-width: 1024px) {
+    .testimonials-grid{
+   
+    grid-template-areas:
+    "item1 item1 item2" 
+    "item3 item3 item5"
+    "item4 item4 item5";
     }
 
+      .testimonials-grid .item:nth-child(2) {
+        padding: 2rem 1.5rem;
+    }
 }
