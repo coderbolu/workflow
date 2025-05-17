@@ -20,5 +20,5 @@ function.getPost() {
             
         `
     }
-
+    postBody.innerHTML = blogDetails
 }
