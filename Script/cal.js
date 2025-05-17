@@ -81,8 +81,21 @@ peopleInput.addEventListener("input", (e) => {
     if (currVal == 0 ){
         peopleWarning.classList.add("hidden")
         peopleContainer.classList.add("#ff0000")
-        peopleContainer.classList.remove("#ff0000")
+        peopleContainer.classList.add("border-2");
+        people = 0
+    } else {
+        peopleWarning.classList.add("hidden")
+        peopleContainer.classList.remove("#FF0000")
+        peopleContainer.classList.remove("border-2")
+
+        people = currVal;
+        calcTip()
     }
+})
 
 
+billInput.addEventListener("input", (e) => {
+    const currVal = e.target.value;
+    bill = currVal;
+    calcTip()
 })
