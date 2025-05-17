@@ -1,4 +1,4 @@
-function.getPost() {
+function getPost() {
     let blogId = localStorage.getItem("blogId")
 
     fetch('http')
