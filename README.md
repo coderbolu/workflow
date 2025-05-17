@@ -43,3 +43,8 @@ bg:background
 
 There are 2 ways of using bootstrap:
 1. copy the starter template
+
+
+JAVA SCRIPT
+
+get, post, update or delete
