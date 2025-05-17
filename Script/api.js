@@ -53,7 +53,9 @@ function viewPost() {
 
     viewPost.forEach((e, index) => {
             e.addEventListener("click", () => {
-                loc
+                localStorage.setItem(."blogId", index+1)
+
+                window.location.href = "post.html"
         })
     })
 }
