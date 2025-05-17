@@ -48,3 +48,6 @@ There are 2 ways of using bootstrap:
 JAVA SCRIPT
 
 get, post, update or delete
+
+
+various ways to install html into js

@@ -16,3 +16,30 @@ function getPost() {
 
     console.log(newArray)
 }
+
+
+
+
+/////////
+
+function addpost() {
+    let postLayout = document.getElementById("post-layout")
+    let displayPost = ""
+
+    newArray.forEach((post)) => {
+        displayPost+= `
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+            <span>${post?.id}</span>
+             <h1 class="mb-4">
+                ${post?.title}
+            </h1>
+            <p>${post.body}</p>
+                </div>
+            </div>
+        </div>
+            
+        `
+    }
+}
