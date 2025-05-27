@@ -98,7 +98,7 @@ input{
 }
 
 .query input {
-   width: 247px;
+   width: 240px;
 }
 
 .message input{
@@ -108,11 +108,13 @@ input{
 
 .check {
     display: flex;
+    flex-direction: row;
     margin: 1rem 0 2rem 0;
 }
 
 .check p {
     padding-left: 1rem;
+    padding-bottom: 1rem;
     font-family: var(--Karla);
     font-size: 12px;
 }
