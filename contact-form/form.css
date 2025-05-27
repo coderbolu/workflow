@@ -108,9 +108,14 @@ input{
    width: 250px;
 }
 
+.message input{
+   width: 500px;
+   height:100px
+}
+
 
 button {
-    height: 50px;
+    height: 40px;
     width:500px;
     background: var(--Green600-medium);
     border: none;
