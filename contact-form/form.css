@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--Karla);
 }
 
 :root {
@@ -16,16 +17,6 @@
     --Grey500-medium: hsl(186, 15%, 59%);
     --Grey900-darker: hsl(187, 24%, 22%);
 }
-
-/* 
-.message {
-   width:800px; 
-   height: 150px; 
-   background-color:black; 
-   border-radius: 0.5rem; 
-   padding:1rem; 
-   border-color: brown;
-} */
 
 
 body {
@@ -116,13 +107,16 @@ input{
 
 .check p {
     padding-left: 1rem;
+    font-family: var(--Karla);
+    font-size: 12px;
 }
 
 
 button {
-    height: 30px;
+    height: 35px;
     width:503px;
-    background: var(--Green600-medium);
+    font-weight: 300;
+    background-color: var(--Green600-medium);
     border: none;
     font-size: 0.70rem;
     color: #fff;
