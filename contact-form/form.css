@@ -64,18 +64,54 @@ label{
     font-size: 12px;
     color: black;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 0.50rem;
 }
 
 
 input{
-    font-family: var(--OUTFIT);
+    font-family: var(--Karla);
     height: 45px;
-    width: 400px;
-    margin-bottom: 15px;
+    width: 350px;
+    margin-bottom: 1.2rem;;
     border-radius: 8px;
     padding-left: 30px;
     font-size: 14px;
     border:solid #ccc 1px;
     outline-color:rgb(8, 121, 8);
+    font-weight: 500;
+}
+
+.first {
+   display: flex;
+   justify-content: space-between;
+}
+
+.first .text {
+   display: flex;
+   justify-content: flex-start;
+   padding-right: 17.5rem;
+}
+
+
+
+.query {
+   display: flex;
+   flex-direction: column;
+}
+
+.query input {
+   width: 350px;
+}
+
+
+button {
+    height: 50px;
+    width:700px;
+    background: var(--Green600-medium);
+    border: none;
+    font-size: 0.70rem;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 500ms;
+    cursor: pointer;
 }
