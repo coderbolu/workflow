@@ -90,10 +90,13 @@ input{
    padding-left: 11.5rem;
 }
 
+.email label {
+   margin-bottom: 0.75rem;
+}
+
 .email input {
    display: flex;
    width:500px;
-
 } 
 
 .query {
