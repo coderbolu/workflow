@@ -109,6 +109,15 @@ input{
    height:100px
 }
 
+.check {
+    display: flex;
+    margin: 1rem 0 2rem 0;
+}
+
+.check p {
+    padding-left: 1rem;
+}
+
 
 button {
     height: 30px;
