@@ -90,13 +90,9 @@ input{
    padding-left: 11.8rem;
 }
 
-.email label {
-   margin-bottom: 0.50rem;
-}
-
 .email input {
    display: flex;
-   width:500px;
+   width:505px;
 } 
 
 .query {
@@ -109,14 +105,14 @@ input{
 }
 
 .message input{
-   width: 500px;
+   width: 505px;
    height:100px
 }
 
 
 button {
     height: 40px;
-    width:500px;
+    width:503px;
     background: var(--Green600-medium);
     border: none;
     font-size: 0.70rem;
