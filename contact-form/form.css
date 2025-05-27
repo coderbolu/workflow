@@ -64,13 +64,13 @@ label{
     font-size: 12px;
     color: black;
     font-weight: 500;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.50rem;
 }
 
 
 input{
     font-family: var(--Karla);
-    height: 45px;
+    height: 40px;
     width: 250px;
     margin-bottom: 1.2rem;;
     border-radius: 8px;
@@ -83,7 +83,7 @@ input{
 
 .first {
    display: flex;
-   margin-bottom: 0.75rem;
+   margin-bottom: 0.50rem;
 }
 
 .first .text {
@@ -91,7 +91,7 @@ input{
 }
 
 .email label {
-   margin-bottom: 0.75rem;
+   margin-bottom: 0.50rem;
 }
 
 .email input {
