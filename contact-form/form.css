@@ -124,3 +124,7 @@ button {
     transition: all 500ms;
     cursor: pointer;
 }
+
+button:hover {
+    background: var(--Grey900-darker)
+}
