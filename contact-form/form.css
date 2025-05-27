@@ -55,7 +55,7 @@ body {
 
 h1 {
     margin-bottom: 24px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: start;
 }
 
@@ -87,7 +87,7 @@ input{
 }
 
 .first .text {
-   padding-left: 11.5rem;
+   padding-left: 11.8rem;
 }
 
 .email label {
