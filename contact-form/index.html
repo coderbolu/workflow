@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="/form.css">
+    <link rel ="stylesheet" href="/contact-form/form.css">
    <title>Contact Form</title>
 </head>
 <body>
@@ -26,12 +26,12 @@
 
                <div class="query">
                   <label for="name">Query Type *</label>
-                  <input type="text" name="general-enquiry" placeholder="General Enquiry">
-                  <input type="text" name="support-request" placeholder="Support Request">
+                  <input type="radio" id="general-enquiry" name="select" value="General Enquiry">
+                  <input type="radio" id="support-request" name="select" value="Support Request">
                </div>
                <label for="name"> Message *</label>
-               <textarea name="message" id="message" cols="100" rows="5" placeholder="" border-radius="1rem"></textarea>
-            
+               <input type="text" name="message" width="800"placeholder="">
+              
 
             <button id="btn">Submit</button>
       

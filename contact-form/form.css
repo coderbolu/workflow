@@ -9,10 +9,37 @@
 
 :root {
     --Karla: 'Karla', sans-serif;
-    --Green200-(lighter): hsl(148, 38%, 91%);
-    --Green600-(medium): hsl(169, 82%, 27%);
+    --Green200-lighter: hsl(148, 38%, 91%);
+    --Green600-medium: hsl(169, 82%, 27%);
     --Red: hsl(0, 66%, 54%);
     --White: hsl(0, 0%, 100%);
     --Grey500-medium: hsl(186, 15%, 59%);
     --Grey900-darker: hsl(187, 24%, 22%);
+}
+
+/* 
+.message {
+   width:800px; 
+   height: 150px; 
+   background-color:black; 
+   border-radius: 0.5rem; 
+   padding:1rem; 
+   border-color: brown;
+} */
+
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: var(--Karla);
+    padding: 40px;
+    position:relative;
+    width: 100%;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color:var(--Green200-lighter);
+    background-blend-mode: darken;
 }
