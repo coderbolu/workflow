@@ -10,7 +10,6 @@
    <form method="post">
       <div class="form-box">
          <h1>Contact Us</h1>
-        <!-- <form autocomplete="off" action="./indexfordesc.html" method="post">  -->
             <!--action is where data is going to, method include 'get' and post-->
                <div class="names">
                   <label for="name">First Name *</label>
@@ -26,11 +25,11 @@
 
                <div class="query">
                   <label for="name">Query Type *</label>
-                  <input type="radio" id="general-enquiry" name="select" value="General Enquiry">
-                  <input type="radio" id="support-request" name="select" value="Support Request">
+                  <input type="text" name="general-enquiry" placeholder="General Enquiry">
+                  <input type="text" name="support-request" placeholder="Support Request">
                </div>
                <label for="name"> Message *</label>
-               <input type="text" name="message" width="800"placeholder="">
+               <input type="text" name="message" placeholder="">
               
 
             <button id="btn">Submit</button>
