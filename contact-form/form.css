@@ -67,7 +67,7 @@ input{
     margin-bottom: 1.2rem;;
     border-radius: 5px;
     padding-left: 30px;
-    font-size: 14px;
+    font-size: 12px;
     border:solid #ccc 1px;
     outline-color:rgb(8, 121, 8);
     font-weight: 500;
@@ -82,10 +82,11 @@ input{
    padding-left: 12rem;
 }
 
-.answers {
+.answer {
     display: flex;
     justify-content: space-between;
 }
+
 .email input {
    display: flex;
    width:505px;
@@ -93,11 +94,11 @@ input{
 
 .query {
    display: flex;
-   flex-direction: column;
+   justify-content: space-between;
 }
 
 .query input {
-   width: 250px;
+   width: 247px;
 }
 
 .message input{
