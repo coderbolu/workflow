@@ -149,7 +149,7 @@ button:hover {
     }
 
     .form-box {
-        display: flex;
+        display: grid;
         flex-direction: column;
         max-width: 250px;
         background-color:var(--White);
@@ -165,9 +165,11 @@ button:hover {
         max-width: 215px;
     }
 
-    .first label {
+    .first {
         display: flex;
         flex-direction: column;
+    }
+        
     }
 
     .email input {
