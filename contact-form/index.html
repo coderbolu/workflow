@@ -55,11 +55,13 @@
    </form>
 
     <script>
-        const button = document.getElementById('btn');
-        button.onclick = () => {
+      function submitForm(evrnt){
+         event.preventDefault();
+         const button = document.getElementById('btn');
+         button.onclick = () => {
          window.alert('Message Sent!')
         }
-        
+      }   
     </script>
     
       
