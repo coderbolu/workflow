@@ -144,7 +144,6 @@ button:hover {
         display: flex;
         justify-content:center;
         align-items: center;
-        font-family: var(--Karla);
         min-width: 100%;
         position:relative;
     }
@@ -163,20 +162,20 @@ button:hover {
     input{
         font-family: var(--Karla);
         height: 35px;
-        width: 230px;
+        width: 215px;
     }
 
     .email input {
         display: flex;
-        width:220px;
+        width:215px;
     }
 
     .query input {
-        width: 255px;
+        width: 215px;
     }
 
     .message input {
-        width: 255px;
+        width: 215px;
         height:100px;
     }
 
