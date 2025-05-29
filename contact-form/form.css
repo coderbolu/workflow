@@ -139,10 +139,20 @@ button:hover {
 
 
 @media (max-width: 640px) {   
+
+    body {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-family: var(--Karla);
+        min-width: 100%;
+        position:relative;
+    }
+
     .form-box {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 250px;
         background-color:var(--White);
         border-radius: 16px;
         position: relative;
@@ -150,15 +160,15 @@ button:hover {
         align-self: center;
     }
 
-    .first {
-        display: flex;
-        flex-direction: column;
-        /* margin-bottom: 0.50rem; */
+    input{
+        font-family: var(--Karla);
+        height: 35px;
+        width: 230px;
     }
 
     .email input {
         display: flex;
-        width:255px;
+        width:220px;
     }
 
     .query input {
@@ -168,6 +178,12 @@ button:hover {
     .message input {
         width: 255px;
         height:100px;
+    }
+
+    .check p {
+        padding-left: 0.5rem;
+        padding-bottom: 1rem;
+        font-size: 12px;
     }
 
     button {
