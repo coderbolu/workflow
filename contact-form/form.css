@@ -33,7 +33,7 @@ body {
     background-color:var(--Green200-lighter);
 }
 
-.form-box{
+.form-box {
     display: grid;
     flex-direction: column;
     width: 100%;
@@ -104,7 +104,6 @@ input{
 .message input{
    width: 505px;
    height:100px;
-   
 }
 
 .check {
@@ -136,4 +135,43 @@ button {
 
 button:hover {
     background: var(--Grey900-darker)
+}
+
+
+@media (max-width: 640px) {   
+    .form-box {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color:var(--White);
+        border-radius: 16px;
+        position: relative;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 0.50rem; */
+    }
+
+    .email input {
+        display: flex;
+        width:255px;
+    }
+
+    .query input {
+        width: 255px;
+    }
+
+    .message input {
+        width: 255px;
+        height:100px;
+    }
+
+    button {
+    width:255px;
+    }
+
 }
