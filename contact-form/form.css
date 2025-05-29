@@ -180,13 +180,15 @@ button:hover {
     }
 
     .check p {
-        padding-left: 0.5rem;
+        padding-left: 1rem;
         padding-bottom: 1rem;
+        margin-top: -0.50rem;
+        line-height: 1rem;
         font-size: 12px;
     }
 
     button {
-    width:255px;
+    width:215px;
     }
 
 }
