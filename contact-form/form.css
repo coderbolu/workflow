@@ -151,7 +151,7 @@ button:hover {
     .form-box {
         display: flex;
         flex-direction: column;
-        width: 250px;
+        max-width: 250px;
         background-color:var(--White);
         border-radius: 16px;
         position: relative;
@@ -162,7 +162,12 @@ button:hover {
     input{
         font-family: var(--Karla);
         height: 35px;
-        width: 215px;
+        max-width: 215px;
+    }
+
+    .first label {
+        display: flex;
+        flex-direction: column;
     }
 
     .email input {
@@ -171,12 +176,14 @@ button:hover {
     }
 
     .query input {
+        display: flex;
+        flex-direction: column;
         width: 215px;
     }
 
     .message input {
         width: 215px;
-        height:100px;
+        height:170px;
     }
 
     .check p {
