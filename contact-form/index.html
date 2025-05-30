@@ -55,13 +55,17 @@
    </form>
 
     <script>
-      function submitForm(evrnt){
-         event.preventDefault();
-         const button = document.getElementById('btn');
+      window.onload = function onload () {
+         document.getElementById('btn'). addEventListener('click', onSubmit)
+      }
+
+      function onSubmit () {
+         alert('Message Sent!')
+      }
          button.onclick = () => {
          window.alert('Message Sent!')
         }
-      }   
+        
     </script>
     
       
