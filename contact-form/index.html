@@ -59,12 +59,19 @@
          document.getElementById('btn'). addEventListener('click', onSubmit)
       }
 
-      function onSubmit () {
-         alert('Message Sent!')
+      function validateFields() {
+         var name = document.getElementsByName('name').value;
+         var name = document.getElementsByName('email').value;
+         return false
       }
-         button.onclick = () => {
-         window.alert('Message Sent!')
-        }
+      function onSubmit () {
+         var result = validateFields();
+         if(result) {
+         alert('Message Sent!')
+         } else {
+            alert ('This field is required')
+         }
+      }
         
     </script>
     
