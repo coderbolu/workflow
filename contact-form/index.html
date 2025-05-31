@@ -59,15 +59,15 @@
          document.getElementById('btn'). addEventListener('click', onSubmit)
       }
 
-      function validateEmail(mail)
-      function ValidateEmail(mail) 
+      function validateEmail(email)
+      
 {
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
   {
-    return (true)
+    return true
   }
-    alert("You have entered an invalid email address!")
-    return (false)
+   
+    return false
 }
 
       function validateFields() {
@@ -76,7 +76,10 @@
          var name = document.getElementsByName('general-enquiry').value;
          var name = document.getElementsByName('support-request').value;
          var name = document.getElementsByName('message').value;
-         console.log (`form values => `, (name, email, general-enquiry, support-request, message ))
+         if (name && email && general-enquiry && support-request && message) {
+            var emailValidation = 
+            return true
+         }
          return false
       }
       function onSubmit () {
