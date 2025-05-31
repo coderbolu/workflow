@@ -77,7 +77,12 @@
          var name = document.getElementsByName('support-request').value;
          var name = document.getElementsByName('message').value;
          if (name && email && general-enquiry && support-request && message) {
-            var emailValidation = 
+            var emailValidation = validateEmail(email);
+            if(emailValidation) {
+               return true
+            }
+            alert('Please enter a valid email address')
+
             return true
          }
          return false
