@@ -8,21 +8,21 @@
     <title>Contact Form</title>
 </head>
 <body>
-   <form method="post">
       <div class="form-box">
          <h1>Contact Us</h1>
             <!--action is where data is going to, method include 'get' and post-->
+            <form id="contact-form">
                <div class="first">
                   <div class="names">
-                     <label for="name">First Name *</label>
+                     <label for="name">First Name <span class="required-input"> * </span></label>
                   </div>
                   <div class="text">
                      <label for="name">Last Name *</label>
                   </div>
                </div>
                <div class="answer"> 
-                  <input type="text" name="firstname" placeholder="">
-                  <input type="text" name="lastname" placeholder="">
+                  <input type="text" id="firstname" placeholder="">
+                  <input type="text" id="lastname" placeholder="">
                </div>
                
                
@@ -34,8 +34,8 @@
                
                <label for="name">Query Type *</label>
                   <div class="query">                  
-                        <input type="text" name="general-enquiry" placeholder="General Enquiry">
-                        <input type="text" name="support-request" placeholder="Support Request">                   
+                        <input type="text" id="general-enquiry" placeholder="General Enquiry">
+                        <input type="text" id="support-request" placeholder="Support Request">                   
                   </div>
 
                <label for="name"> Message *</label>
@@ -49,10 +49,9 @@
                      </div>
                            <p> I consent to being contacted by the team *</p>
                   </div>
-            <button id="btn">Submit</button>
-      
+                     <button id="btn">Submit</button>
+               </form>
       </div>
-   </form>
 
     <script>
       window.onload = function onload () {
