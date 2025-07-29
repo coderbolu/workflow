@@ -58,7 +58,7 @@
                <div class="first">
                   <div>
                      <input type="checkbox" name="consent" id="consent">
-                     <label for="consent">I consent to being contacted by the team <span class="required-input"></span></label>
+                     <label for="consent">I consent to being contacted by the team <span class="required-input"></span>*</label>
                   </div>
 
                   <p class="form-alert">To submit form, please consent to being contacted</p>
@@ -71,53 +71,15 @@
       <div id="success-message" class="success-message">
          <div class="message-header">
             <img src="./assets/icon-success-check.svg" alt="">
+            Message Sent!
          </div>
-         <p>We will get back to you as soon as possible.</p>
 
-    <script>
-      window.onload = function onload () {
-         document.getElementById('btn'). addEventListener('click', onSubmit)
-      }
+         <p>Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
 
-      function validateEmail(email)
-      
-{
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
-  {
-    return true
-  }
-   
-    return false
-}
 
-      function validateFields() {
-         var name = document.getElementsByName('name').value;
-         var name = document.getElementsByName('email').value;
-         var name = document.getElementsByName('general-enquiry').value;
-         var name = document.getElementsByName('support-request').value;
-         var name = document.getElementsByName('message').value;
-         if (name && email && general-enquiry && support-request && message) {
-            var emailValidation = validateEmail(email);
-            if(emailValidation) {
-               return true
-            }
-            alert('Please enter a valid email address')
-            return false
-         }
-         return false
-      }
-      function onSubmit () {
-         var result = validateFields();
-         if(result) {
-         alert('Message Sent!')
-         } else {
-            alert ('This field is required')
-         }
-      }
-        
-    </script>
+    <script src="main.js"></script>
     
-      
-   </div>
+
 </body>
 </html>
