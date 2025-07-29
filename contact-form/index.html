@@ -27,7 +27,7 @@
                </div>
 
                <div class="first"> 
-                  <label for="email">>Email Address <span class="required-input">*</span></label>
+                  <label for="email">Email Address <span class="required-input">*</span></label>
                   <input type="text" name="email" id="email">
                   <p class="form-alert"> Please enter a valid email address</p>
                </div>
@@ -45,18 +45,20 @@
                         <label for="support-request">Support Request</label>
                      </div>
                   </div> 
+
+                  <p class="form-alert">Please select a query type</p>                  
+               </div>
+
+               <div class="first">
+                  <label for="message">Message <span class="required-input">*</span></label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                  <p class="form-alert">This field is required</p>
                </div>
             </form>
       </div> 
          
 
-               
-               <label for="name">Query Type *</label>
-                  <div class="query">                  
-                        <input type="text" id="general-enquiry" placeholder="General Enquiry">
-                        <input type="text" id="support-request" placeholder="Support Request">                   
-                  </div>
-
+      
                <label for="name"> Message *</label>
                   <div class="message">
                      <input type="text" name="message" placeholder="">
