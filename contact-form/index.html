@@ -13,20 +13,25 @@
             <!--action is where data is going to, method include 'get' and post-->
             <form id="contact-form">
                <div class="first">
-                  <div class="names">
+                  <div class="first-name">
                      <label for="name">First Name <span class="required-input"> * </span></label>
-                     <input type="text" id="firstname" placeholder="">
+                     <input type="text" name="first-name" id="first-name">
                      <p class="form-alert"> This field is required</p>
                   </div>
                   <div class="text">
                      <label for="name">Last Name *</label>
                   </div>
                </div>
-               <div class="answer"> 
-                  
-                  <input type="text" id="lastname" placeholder="">
+
+               <div class="first"> 
+                  <div class="last-name">
+                     <label for="last-name">Last Name <span class="required-input"> * </span></label>
+                     <input type="text" name="last-name" id="last-name">
+                     <p class="form-alert">This field is required</p>
+                  </div>
                </div>
-               
+            </form>
+      </div> 
                
                <label for="name">Email Address *</label>
                   <div class="email">
